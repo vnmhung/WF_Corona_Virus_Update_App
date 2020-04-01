@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using HtmlAgilityPack;
 using System.Net.Http;
 using Microsoft.Win32;
+using System.Net;
 
 namespace WF_Corona_Virus_Update
 {
@@ -28,6 +29,12 @@ namespace WF_Corona_Virus_Update
 
         private void Form_Main_Load(object sender, EventArgs e)
         {
+            if (Check_For_Internet_Connection() == false)
+            {
+                MessageBox.Show("Thiết bị này không có kết nối Internet.");
+                this.Close();
+            }
+
             using (RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true))
             {
                 if (key.GetValue("Corona Update App") == null)
@@ -35,6 +42,7 @@ namespace WF_Corona_Virus_Update
                 else
                     checkBox_autorun.Checked = true;
             }
+
             get_all_data();
         }
 
@@ -207,7 +215,19 @@ namespace WF_Corona_Virus_Update
                 checkBox_autorun.Checked = true;
             }
         }
-    }
 
-    
+        public static bool Check_For_Internet_Connection()
+        {
+            try
+            {
+                using (var client = new WebClient())
+                using (client.OpenRead("http://google.com/generate_204"))
+                    return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+    }    
 }
