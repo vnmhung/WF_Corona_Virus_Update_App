@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 using HtmlAgilityPack;
 using System.Net.Http;
+using Microsoft.Win32;
 
 namespace WF_Corona_Virus_Update
 {
@@ -27,6 +28,13 @@ namespace WF_Corona_Virus_Update
 
         private void Form_Main_Load(object sender, EventArgs e)
         {
+            using (RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true))
+            {
+                if (key.GetValue("Corona Update App") == null)
+                    checkBox_autorun.Checked = false;
+                else
+                    checkBox_autorun.Checked = true;
+            }
             get_all_data();
         }
 
@@ -178,6 +186,26 @@ namespace WF_Corona_Virus_Update
         private void button_update_data_Click(object sender, EventArgs e)
         {
             get_all_data();
+        }
+
+        private void checkBox_autorun_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox_autorun.Checked == false) // vừa bỏ check
+            {
+                using (RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true))
+                {
+                    key.DeleteValue("Corona Update App", false);
+                }
+                checkBox_autorun.Checked = false;
+            }
+            else // vừa check
+            {
+                using (RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true))
+                {
+                    key.SetValue("Corona Update App", "\"" + Application.ExecutablePath + "\"");
+                }
+                checkBox_autorun.Checked = true;
+            }
         }
     }
 
