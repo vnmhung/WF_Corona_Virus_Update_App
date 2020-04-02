@@ -12,6 +12,8 @@ using HtmlAgilityPack;
 using System.Net.Http;
 using Microsoft.Win32;
 using System.Net;
+using IWshRuntimeLibrary;
+using System.IO;
 
 namespace WF_Corona_Virus_Update
 {
@@ -338,10 +340,23 @@ namespace WF_Corona_Virus_Update
 
         private void dataGridView_thong_ke_chi_tiet_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
         {
-            //for (int i = 0; i < dataGridView_thong_ke_chi_tiet.Rows.Count; i++)
-            //{
-            //    dataGridView_thong_ke_chi_tiet.Rows[i].HeaderCell.Value = (i + 1).ToString();
-            //}
+            for (int i = 0; i < dataGridView_thong_ke_chi_tiet.Rows.Count; i++)
+            {
+                dataGridView_thong_ke_chi_tiet.Rows[i].HeaderCell.Value = (i + 1).ToString();
+            }
+            dataGridView_thong_ke_chi_tiet.RowHeadersWidth = 60;
+        }
+
+        private void button_create_shortcut_Click(object sender, EventArgs e)
+        {
+            //var startupFolderPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            //var shell = new WshShell();
+            //var shortCutLinkFilePath = Path.Combine(startupFolderPath, @"\Corona Virus Update.lnk");
+            //var windowsApplicationShortcut = (IWshShortcut)shell.CreateShortcut(shortCutLinkFilePath);
+            //windowsApplicationShortcut.Description = "create short for Corona Virus Update application";
+            //windowsApplicationShortcut.WorkingDirectory = Application.StartupPath;
+            //windowsApplicationShortcut.TargetPath = Application.ExecutablePath;
+            //windowsApplicationShortcut.Save();
         }
     }    
 }

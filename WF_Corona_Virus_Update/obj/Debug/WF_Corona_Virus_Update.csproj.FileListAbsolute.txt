@@ -1,0 +1,15 @@
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\bin\Debug\WF_Corona_Virus_Update.exe.config
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\bin\Debug\WF_Corona_Virus_Update.exe
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\bin\Debug\WF_Corona_Virus_Update.pdb
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\bin\Debug\HtmlAgilityPack.dll
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\bin\Debug\HtmlAgilityPack.xml
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\obj\Debug\WF_Corona_Virus_Update.csprojAssemblyReference.cache
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\obj\Debug\WF_Corona_Virus_Update.Form_Main.resources
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\obj\Debug\WF_Corona_Virus_Update.Properties.Resources.resources
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\obj\Debug\WF_Corona_Virus_Update.csproj.GenerateResource.cache
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\obj\Debug\WF_Corona_Virus_Update.csproj.CopyComplete
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\obj\Debug\WF_Corona_Virus_Update.exe
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\obj\Debug\WF_Corona_Virus_Update.pdb
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\vnmhung\Documents\Visual Studio Project\WF_Corona_Virus_Update\WF_Corona_Virus_Update\obj\Debug\WF_Corona_Virus_Update.csproj.ResolveComReference.cache
