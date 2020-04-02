@@ -21,6 +21,7 @@ namespace WF_Corona_Virus_Update
 
         List<string> list_country = new List<string>();
         List<List<string>> result = new List<List<string>>();
+        DataTable tb_all = new DataTable();
 
         public Form_Main()
         {
@@ -42,6 +43,18 @@ namespace WF_Corona_Virus_Update
                 else
                     checkBox_autorun.Checked = true;
             }
+
+            tb_all.Columns.Add("c0", typeof(string));
+            tb_all.Columns.Add("c1", typeof(int));
+            tb_all.Columns.Add("c2", typeof(int));
+            tb_all.Columns.Add("c3", typeof(int));
+            tb_all.Columns.Add("c4", typeof(int));
+            tb_all.Columns.Add("c5", typeof(int));
+            tb_all.Columns.Add("c6", typeof(int));
+            tb_all.Columns.Add("c7", typeof(int));
+            tb_all.Columns.Add("c8", typeof(int));
+            tb_all.Columns.Add("c9", typeof(int));
+            tb_all.Columns.Add("c10", typeof(string));
 
             get_all_data();
         }
@@ -90,8 +103,11 @@ namespace WF_Corona_Virus_Update
         private async Task get_all_data()
         {
             label_loading.Visible = true;
+            label_loading.Text = "ĐANG TẢI DỮ LIỆU...";
             list_country.Clear();
+            tb_all.Rows.Clear();
             dataGridView_thong_ke_chi_tiet.Rows.Clear();
+            comboBox_chon_quoc_gia.Items.Clear();
 
             string url_crawl = url;
             var httpClient = new HttpClient();
@@ -110,6 +126,8 @@ namespace WF_Corona_Virus_Update
                 {
                     var  _ten_khu_vuc = _tr1.Descendants("td").ToList()[0].InnerText;
                     list_country.Add(_ten_khu_vuc as string);
+
+                    label_loading.Text = "ĐANG TẢI DỮ LIỆU ("+ _ten_khu_vuc + ")...";
 
                     var td_TG = htmlDocument.DocumentNode.Descendants("td")
                         .Where(node => node.InnerText.Equals(_ten_khu_vuc)).ToList();
@@ -142,13 +160,32 @@ namespace WF_Corona_Virus_Update
 
                     result.Add(res);
 
-                    //object[] dtr = { res.ToArray()[0], Convert.ToInt32(res.ToArray()[1]),
-                    //    Convert.ToInt32(res.ToArray()[2]), Convert.ToInt32(res.ToArray()[3]),
-                    //    Convert.ToInt32(res.ToArray()[4]), Convert.ToInt32(res.ToArray()[5]),
-                    //    Convert.ToInt32(res.ToArray()[6]), Convert.ToInt32(res.ToArray()[7]),
-                    //    Convert.ToInt32(res.ToArray()[8]), Convert.ToInt32(res.ToArray()[9]),
-                    //    res.ToArray()[10] };
-                    dataGridView_thong_ke_chi_tiet.Rows.Add(res.ToArray());
+                    object[] dtr = new object[11];
+                    dtr[0] = tr_TG[0].InnerText;
+                    dtr[10] = tr_TG[10].InnerText;
+                    for(int i = 1; i<=9; i++)
+                    {
+                        try
+                        {
+                            var str = tr_TG[i].InnerText;
+                            foreach (var c in str)
+                            {
+                                if(c<'0' || c>'9')
+                                    str = str.Replace(c+"", string.Empty);
+                            }
+                            if (str == "")
+                                dtr[i] = 0;
+                            else
+                                dtr[i] = Convert.ToInt32(str);
+                        }
+                        catch (Exception ee)
+                        {
+                            //dtr[i] = tr_TG[i].InnerText;
+                            //MessageBox.Show(dtr[i] + ee.ToString());
+                        }
+                    }
+
+                    tb_all.Rows.Add(dtr);
 
                     if (_ten_khu_vuc.Equals("Total:"))
                     {
@@ -167,11 +204,17 @@ namespace WF_Corona_Virus_Update
                 }
             }
 
-            comboBox_chon_quoc_gia.Items.Clear();
+            dataGridView_thong_ke_chi_tiet.DataSource = tb_all;
+
             comboBox_chon_quoc_gia.Items.AddRange(list_country.ToArray());
+            label_nhiem_3.Text = "00";
+            label_chua_khoi_3.Text = "00";
+            label_dang_duong_tinh_3.Text = "00";
+            label_chet_3.Text = "00";
+
             label_loading.Visible = false;
-            label_update_time.Text = "Cập nhật lần cuối: " + DateTime.Now.ToString("HH:mm") 
-                + " ngày " + DateTime.Now.ToString("dd/MM/yyyy");
+            label_update_time.Text = "(Số liệu được cập nhật lúc: " + DateTime.Now.ToString("HH:mm") 
+                + " ngày " + DateTime.Now.ToString("dd/MM/yyyy") + ")";
         }
 
         private void comboBox_chon_quoc_gia_SelectedIndexChanged(object sender, EventArgs e)
@@ -228,6 +271,31 @@ namespace WF_Corona_Virus_Update
             {
                 return false;
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            get_all_data();
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            label_thoi_gian.Text = DateTime.Now.ToString("HH:mm:ss - dd/MM/yyyy");
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(url);
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("mailto:vnmhung@gmail.com");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://vnmhung.netlify.com/");
         }
     }    
 }

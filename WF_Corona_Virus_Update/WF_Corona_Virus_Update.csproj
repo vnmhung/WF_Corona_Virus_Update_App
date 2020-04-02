@@ -70,6 +70,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -87,6 +88,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8-coronavirus-64.ico" />
+    <None Include="Resources\fever.png" />
+    <None Include="Resources\face-mask.png" />
+    <None Include="Resources\sore-throat.png" />
+    <None Include="Resources\temperature.png" />
+    <None Include="Resources\vietnam.png" />
+    <None Include="Resources\world.png" />
+    <None Include="Resources\virus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
