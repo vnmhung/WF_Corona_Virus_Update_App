@@ -122,8 +122,8 @@ namespace WF_Corona_Virus_Update
                 label_loading.Visible = true;
                 label_loading.Text = "ĐANG TẢI DỮ LIỆU...";
                 list_country.Clear();
+                result.Clear();
                 tb_all.Rows.Clear();
-                dataGridView_thong_ke_chi_tiet.Rows.Clear();
                 comboBox_chon_quoc_gia.Items.Clear();
 
                 string url_crawl = url;
@@ -236,7 +236,7 @@ namespace WF_Corona_Virus_Update
             }
             catch (Exception ee)
             {
-                //MessageBox.Show(ee.ToString());
+                MessageBox.Show(ee.ToString());
             }
 
         }
@@ -309,7 +309,7 @@ namespace WF_Corona_Virus_Update
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(url);
+            //System.Diagnostics.Process.Start(url);
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
