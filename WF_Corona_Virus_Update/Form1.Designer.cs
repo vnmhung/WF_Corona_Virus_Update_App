@@ -90,6 +90,8 @@
             this.label11 = new System.Windows.Forms.Label();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.label12 = new System.Windows.Forms.Label();
+            this.textBox_search = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.tabPage4.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -170,6 +172,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label13);
+            this.tabPage2.Controls.Add(this.textBox_search);
             this.tabPage2.Controls.Add(this.dataGridView_thong_ke_chi_tiet);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -203,8 +207,9 @@
             this.dataGridView_thong_ke_chi_tiet.Name = "dataGridView_thong_ke_chi_tiet";
             this.dataGridView_thong_ke_chi_tiet.ReadOnly = true;
             this.dataGridView_thong_ke_chi_tiet.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView_thong_ke_chi_tiet.Size = new System.Drawing.Size(1025, 570);
+            this.dataGridView_thong_ke_chi_tiet.Size = new System.Drawing.Size(1025, 538);
             this.dataGridView_thong_ke_chi_tiet.TabIndex = 0;
+            this.dataGridView_thong_ke_chi_tiet.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridView_thong_ke_chi_tiet_DataBindingComplete);
             // 
             // tabPage1
             // 
@@ -761,6 +766,25 @@
             this.label12.TabIndex = 5;
             this.label12.Text = "Website: ";
             // 
+            // textBox_search
+            // 
+            this.textBox_search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textBox_search.Location = new System.Drawing.Point(64, 551);
+            this.textBox_search.Name = "textBox_search";
+            this.textBox_search.Size = new System.Drawing.Size(153, 20);
+            this.textBox_search.TabIndex = 1;
+            this.textBox_search.TextChanged += new System.EventHandler(this.textBox_search_TextChanged);
+            // 
+            // label13
+            // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(6, 554);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(52, 13);
+            this.label13.TabIndex = 2;
+            this.label13.Text = "Tìm kiếm:";
+            // 
             // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -778,6 +802,7 @@
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
             this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_thong_ke_chi_tiet)).EndInit();
             this.tabPage1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -855,6 +880,8 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox textBox_search;
     }
 }
 

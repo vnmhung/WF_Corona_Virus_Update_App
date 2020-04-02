@@ -56,7 +56,14 @@ namespace WF_Corona_Virus_Update
             tb_all.Columns.Add("c9", typeof(int));
             tb_all.Columns.Add("c10", typeof(string));
 
-            get_all_data();
+            try
+            {
+                get_all_data();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         private async Task get_data(string ten_nuoc)
@@ -180,8 +187,8 @@ namespace WF_Corona_Virus_Update
                         }
                         catch (Exception ee)
                         {
-                            //dtr[i] = tr_TG[i].InnerText;
-                            //MessageBox.Show(dtr[i] + ee.ToString());
+                            dtr[i] = tr_TG[i].InnerText;
+                            MessageBox.Show(dtr[i] + ee.ToString());
                         }
                     }
 
@@ -215,6 +222,7 @@ namespace WF_Corona_Virus_Update
             label_loading.Visible = false;
             label_update_time.Text = "(Số liệu được cập nhật lúc: " + DateTime.Now.ToString("HH:mm") 
                 + " ngày " + DateTime.Now.ToString("dd/MM/yyyy") + ")";
+            
         }
 
         private void comboBox_chon_quoc_gia_SelectedIndexChanged(object sender, EventArgs e)
@@ -296,6 +304,44 @@ namespace WF_Corona_Virus_Update
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             System.Diagnostics.Process.Start("https://vnmhung.netlify.com/");
+        }
+
+        private void textBox_search_TextChanged(object sender, EventArgs e)
+        {
+            DataTable dataTable_search = SearchInAllColums(tb_all, textBox_search.Text, StringComparison.OrdinalIgnoreCase);
+            dataGridView_thong_ke_chi_tiet.DataSource = dataTable_search;
+        }
+
+        public static System.Data.DataTable SearchInAllColums(System.Data.DataTable table, string keyword, StringComparison comparison)
+        {
+            if (keyword.Equals(""))
+            {
+                return table;
+            }
+            DataRow[] filteredRows = table.Rows
+                   .Cast<DataRow>()
+                   .Where(r => r.ItemArray.Any(
+                   c => c.ToString().IndexOf(keyword, comparison) >= 0))
+                   .ToArray();
+
+            if (filteredRows.Length == 0)
+            {
+                System.Data.DataTable dtTemp = table.Clone();
+                dtTemp.Clear();
+                return dtTemp;
+            }
+            else
+            {
+                return filteredRows.CopyToDataTable();
+            }
+        }
+
+        private void dataGridView_thong_ke_chi_tiet_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            //for (int i = 0; i < dataGridView_thong_ke_chi_tiet.Rows.Count; i++)
+            //{
+            //    dataGridView_thong_ke_chi_tiet.Rows[i].HeaderCell.Value = (i + 1).ToString();
+            //}
         }
     }    
 }
