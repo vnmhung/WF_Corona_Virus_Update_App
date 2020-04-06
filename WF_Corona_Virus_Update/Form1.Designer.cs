@@ -124,11 +124,11 @@
             this.label_loading.BackColor = System.Drawing.Color.Transparent;
             this.label_loading.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_loading.ForeColor = System.Drawing.Color.Red;
-            this.label_loading.Location = new System.Drawing.Point(572, 10);
+            this.label_loading.Location = new System.Drawing.Point(622, 4);
             this.label_loading.Name = "label_loading";
             this.label_loading.Size = new System.Drawing.Size(424, 16);
             this.label_loading.TabIndex = 21;
-            this.label_loading.Text = "ĐANG TẢI DỮ LIỆU...";
+            this.label_loading.Text = "ĐANG TẢI DỮ LIỆU, VUI LÒNG ĐỢI...";
             this.label_loading.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.label_loading.Visible = false;
             // 
@@ -443,7 +443,6 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.panel1.Controls.Add(this.label_loading);
             this.panel1.Controls.Add(this.label_thoi_gian);
             this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.pictureBox6);
@@ -842,6 +841,7 @@
             // 
             // comboBox_news
             // 
+            this.comboBox_news.Cursor = System.Windows.Forms.Cursors.Hand;
             this.comboBox_news.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_news.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_news.FormattingEnabled = true;
@@ -881,6 +881,7 @@
             this.textBox_news_search.Name = "textBox_news_search";
             this.textBox_news_search.Size = new System.Drawing.Size(274, 21);
             this.textBox_news_search.TabIndex = 3;
+            this.textBox_news_search.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_news_search_KeyDown);
             // 
             // button_news_search
             // 
@@ -899,11 +900,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1046, 622);
+            this.Controls.Add(this.label_loading);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form_Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Corona Virus Update App by Hùng";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form_Main_FormClosing);
             this.Load += new System.EventHandler(this.Form_Main_Load);
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();

@@ -27,6 +27,7 @@ namespace WF_Corona_Virus_Update
         DataTable tb_all = new DataTable();
 
         public ChromiumWebBrowser browser;
+        string last_url = "";
 
         string url = "https://www.worldometers.info/coronavirus/";
 
@@ -101,9 +102,9 @@ namespace WF_Corona_Virus_Update
             }
             tb_all.Columns.Add("c10", typeof(string));
 
-            _ = get_all_data();
-
             setup_browser();
+
+            _ = get_all_data();
         }
 
         private void setup_browser()
@@ -111,8 +112,12 @@ namespace WF_Corona_Virus_Update
             comboBox_news.Items.AddRange(tt_news);
 
             Cef.Initialize(new CefSettings());
-            browser = new ChromiumWebBrowser(url_news[0]);
-            tabPage5.Controls.Add(browser);
+            last_url = Properties.Settings.Default.last_url;
+            if (last_url == "")
+                browser = new ChromiumWebBrowser(url_news[3]);
+            else
+                browser = new ChromiumWebBrowser(last_url);
+            panel_news.Controls.Add(browser);
             browser.Dock = DockStyle.Fill;
         }
 
@@ -162,7 +167,7 @@ namespace WF_Corona_Virus_Update
             try
             {
                 label_loading.Visible = true;
-                label_loading.Text = "ĐANG TẢI DỮ LIỆU...";
+                label_loading.Text = "ĐANG TẢI DỮ LIỆU, VUI LÒNG ĐỢI...";
                 list_country.Clear();
                 result.Clear();
                 tb_all.Rows.Clear();
@@ -185,8 +190,6 @@ namespace WF_Corona_Virus_Update
                     {
                         var _ten_khu_vuc = _tr1.Descendants("td").ToList()[0].InnerText;
                         list_country.Add(_ten_khu_vuc as string);
-
-                        label_loading.Text = "ĐANG TẢI DỮ LIỆU (" + (_ten_khu_vuc as string) + ")...";
 
                         var td_TG = htmlDocument.DocumentNode.Descendants("td")
                             .Where(node => node.InnerText.Equals(_ten_khu_vuc)).ToList();
@@ -260,6 +263,8 @@ namespace WF_Corona_Virus_Update
                             label_chua_khoi_vn.Text = res[5];
                             label_dang_duong_tinh_vn.Text = res[6];
                         }
+
+                        label_loading.Text = "ĐANG TẢI DỮ LIỆU (" + (_ten_khu_vuc as string) + "), VUI LÒNG ĐỢI...";
                     }
                 }
 
@@ -278,6 +283,7 @@ namespace WF_Corona_Virus_Update
             }
             catch (Exception ee)
             {
+                label_loading.Visible = false;
                 MessageBox.Show(ee.ToString());
             }
 
@@ -428,7 +434,6 @@ namespace WF_Corona_Virus_Update
 
         private void comboBox_news_SelectedIndexChanged(object sender, EventArgs e)
         {
-            //webBrowser_news.Navigate(url_news[comboBox_news.SelectedIndex]);
             browser.Load(url_news[comboBox_news.SelectedIndex]);
         }
 
@@ -440,7 +445,29 @@ namespace WF_Corona_Virus_Update
 
         private void button_news_search_Click(object sender, EventArgs e)
         {
-            browser.Load(textBox_news_search.Text);
+            string _str = textBox_news_search.Text;
+            Uri uriResult;
+            bool _isUrl = Uri.TryCreate(_str, UriKind.Absolute, out uriResult)
+                && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
+            if(_isUrl)
+                browser.Load(_str);
+            else
+                browser.Load("https://www.google.com/search?q=" + _str);
+        }
+
+        private void textBox_news_search_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode.Equals(Keys.Enter))
+            {
+                button_news_search_Click(button_news_search, new EventArgs());
+                e.Handled = e.SuppressKeyPress = true;
+            }
+        }
+
+        private void Form_Main_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.last_url = browser.Address;
+            Properties.Settings.Default.Save();
         }
     }    
 }

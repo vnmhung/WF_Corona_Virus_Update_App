@@ -46,5 +46,17 @@ namespace WF_Corona_Virus_Update.Properties {
                 this["is_auto_update"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string last_url {
+            get {
+                return ((string)(this["last_url"]));
+            }
+            set {
+                this["last_url"] = value;
+            }
+        }
     }
 }
