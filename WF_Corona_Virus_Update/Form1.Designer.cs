@@ -40,12 +40,25 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.checkBox_auto_update = new System.Windows.Forms.CheckBox();
             this.button_create_shortcut = new System.Windows.Forms.Button();
             this.checkBox_autorun = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.linkLabel_news = new System.Windows.Forms.LinkLabel();
             this.label13 = new System.Windows.Forms.Label();
             this.textBox_search = new System.Windows.Forms.TextBox();
             this.dataGridView_thong_ke_chi_tiet = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label_thoi_gian = new System.Windows.Forms.Label();
@@ -80,20 +93,14 @@
             this.label_chet_3 = new System.Windows.Forms.Label();
             this.label_nhiem_3 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.comboBox_news = new System.Windows.Forms.ComboBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.linkLabel_news = new System.Windows.Forms.LinkLabel();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.panel_news = new System.Windows.Forms.Panel();
+            this.textBox_news_search = new System.Windows.Forms.TextBox();
+            this.button_news_search = new System.Windows.Forms.Button();
             this.tabPage4.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -108,14 +115,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabControl1.SuspendLayout();
+            this.tabPage5.SuspendLayout();
             this.SuspendLayout();
             // 
             // label_loading
             // 
             this.label_loading.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label_loading.BackColor = System.Drawing.Color.Transparent;
             this.label_loading.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_loading.ForeColor = System.Drawing.Color.Red;
-            this.label_loading.Location = new System.Drawing.Point(615, 4);
+            this.label_loading.Location = new System.Drawing.Point(572, 10);
             this.label_loading.Name = "label_loading";
             this.label_loading.Size = new System.Drawing.Size(424, 16);
             this.label_loading.TabIndex = 21;
@@ -211,6 +220,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.checkBox_auto_update);
             this.tabPage3.Controls.Add(this.button_create_shortcut);
             this.tabPage3.Controls.Add(this.checkBox_autorun);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
@@ -221,10 +231,22 @@
             this.tabPage3.Text = "Tùy chọn";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // checkBox_auto_update
+            // 
+            this.checkBox_auto_update.AutoSize = true;
+            this.checkBox_auto_update.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.checkBox_auto_update.Location = new System.Drawing.Point(75, 91);
+            this.checkBox_auto_update.Name = "checkBox_auto_update";
+            this.checkBox_auto_update.Size = new System.Drawing.Size(249, 17);
+            this.checkBox_auto_update.TabIndex = 2;
+            this.checkBox_auto_update.Text = "Cho phép tự động cập nhật dữ liệu mỗi 15 phút";
+            this.checkBox_auto_update.UseVisualStyleBackColor = true;
+            this.checkBox_auto_update.CheckedChanged += new System.EventHandler(this.checkBox_auto_update_CheckedChanged);
+            // 
             // button_create_shortcut
             // 
             this.button_create_shortcut.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button_create_shortcut.Location = new System.Drawing.Point(75, 95);
+            this.button_create_shortcut.Location = new System.Drawing.Point(75, 124);
             this.button_create_shortcut.Name = "button_create_shortcut";
             this.button_create_shortcut.Size = new System.Drawing.Size(207, 36);
             this.button_create_shortcut.TabIndex = 1;
@@ -257,6 +279,18 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Thống kê chi tiết";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // linkLabel_news
+            // 
+            this.linkLabel_news.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.linkLabel_news.AutoSize = true;
+            this.linkLabel_news.Location = new System.Drawing.Point(809, 558);
+            this.linkLabel_news.Name = "linkLabel_news";
+            this.linkLabel_news.Size = new System.Drawing.Size(223, 13);
+            this.linkLabel_news.TabIndex = 3;
+            this.linkLabel_news.TabStop = true;
+            this.linkLabel_news.Text = "ĐỌC TIN TỨC CHÍNH THỐNG VỀ COVID-19";
+            this.linkLabel_news.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_news_LinkClicked);
             // 
             // label13
             // 
@@ -305,6 +339,96 @@
             this.dataGridView_thong_ke_chi_tiet.TabIndex = 0;
             this.dataGridView_thong_ke_chi_tiet.DataBindingComplete += new System.Windows.Forms.DataGridViewBindingCompleteEventHandler(this.dataGridView_thong_ke_chi_tiet_DataBindingComplete);
             // 
+            // Column1
+            // 
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.DataPropertyName = "c0";
+            this.Column1.HeaderText = "Tên quốc gia";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.ToolTipText = "Tên các quốc gia / vùng có dịch";
+            // 
+            // Column2
+            // 
+            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column2.DataPropertyName = "c1";
+            this.Column2.HeaderText = "Tổng số ca nhiễm";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "c2";
+            this.Column3.HeaderText = "Ca nhiễm mới (24h qua)";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "c3";
+            this.Column4.HeaderText = "Số ca tử vong";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column5.DataPropertyName = "c4";
+            this.Column5.HeaderText = "Số ca tử vong mới (24h qua)";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column6.DataPropertyName = "c5";
+            this.Column6.HeaderText = "Số ca chữa khỏi";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // Column7
+            // 
+            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column7.DataPropertyName = "c6";
+            this.Column7.HeaderText = "Số ca đang điều trị";
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
+            // 
+            // Column9
+            // 
+            this.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column9.DataPropertyName = "c7";
+            this.Column9.HeaderText = "Số ca nặng";
+            this.Column9.Name = "Column9";
+            this.Column9.ReadOnly = true;
+            // 
+            // Column8
+            // 
+            this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column8.DataPropertyName = "c8";
+            this.Column8.HeaderText = "Số ca nhiễm trên 1 triệu dân";
+            this.Column8.Name = "Column8";
+            this.Column8.ReadOnly = true;
+            // 
+            // Column11
+            // 
+            this.Column11.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column11.DataPropertyName = "c9";
+            this.Column11.HeaderText = "Số ca tử vong trên 1 triệu dân";
+            this.Column11.Name = "Column11";
+            this.Column11.ReadOnly = true;
+            // 
+            // Column10
+            // 
+            this.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column10.DataPropertyName = "c10";
+            this.Column10.HeaderText = "Thời điểm phát hiện ca đầu tiên";
+            this.Column10.Name = "Column10";
+            this.Column10.ReadOnly = true;
+            this.Column10.Visible = false;
+            // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.panel1);
@@ -319,6 +443,7 @@
             // panel1
             // 
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.panel1.Controls.Add(this.label_loading);
             this.panel1.Controls.Add(this.label_thoi_gian);
             this.panel1.Controls.Add(this.pictureBox7);
             this.panel1.Controls.Add(this.pictureBox6);
@@ -692,6 +817,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Location = new System.Drawing.Point(0, 1);
@@ -699,6 +825,31 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1046, 609);
             this.tabControl1.TabIndex = 1;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Controls.Add(this.button_news_search);
+            this.tabPage5.Controls.Add(this.textBox_news_search);
+            this.tabPage5.Controls.Add(this.panel_news);
+            this.tabPage5.Controls.Add(this.comboBox_news);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1038, 583);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Tin tức về Covid-19";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // comboBox_news
+            // 
+            this.comboBox_news.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox_news.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox_news.FormattingEnabled = true;
+            this.comboBox_news.Location = new System.Drawing.Point(3, 7);
+            this.comboBox_news.Name = "comboBox_news";
+            this.comboBox_news.Size = new System.Drawing.Size(332, 23);
+            this.comboBox_news.TabIndex = 1;
+            this.comboBox_news.SelectedIndexChanged += new System.EventHandler(this.comboBox_news_SelectedIndexChanged);
             // 
             // timer1
             // 
@@ -712,114 +863,42 @@
             this.timer2.Interval = 200;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // Column1
+            // panel_news
             // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column1.DataPropertyName = "c0";
-            this.Column1.HeaderText = "Tên quốc gia";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.ToolTipText = "Tên các quốc gia / vùng có dịch";
+            this.panel_news.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel_news.Location = new System.Drawing.Point(2, 35);
+            this.panel_news.Name = "panel_news";
+            this.panel_news.Size = new System.Drawing.Size(1033, 542);
+            this.panel_news.TabIndex = 2;
             // 
-            // Column2
+            // textBox_news_search
             // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column2.DataPropertyName = "c1";
-            this.Column2.HeaderText = "Tổng số ca nhiễm";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
+            this.textBox_news_search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox_news_search.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_news_search.Location = new System.Drawing.Point(677, 8);
+            this.textBox_news_search.Name = "textBox_news_search";
+            this.textBox_news_search.Size = new System.Drawing.Size(274, 21);
+            this.textBox_news_search.TabIndex = 3;
             // 
-            // Column3
+            // button_news_search
             // 
-            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column3.DataPropertyName = "c2";
-            this.Column3.HeaderText = "Ca nhiễm mới (24h qua)";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column4.DataPropertyName = "c3";
-            this.Column4.HeaderText = "Số ca tử vong";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            // 
-            // Column5
-            // 
-            this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column5.DataPropertyName = "c4";
-            this.Column5.HeaderText = "Số ca tử vong mới (24h qua)";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column6.DataPropertyName = "c5";
-            this.Column6.HeaderText = "Số ca chữa khỏi";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
-            // 
-            // Column7
-            // 
-            this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column7.DataPropertyName = "c6";
-            this.Column7.HeaderText = "Số ca đang điều trị";
-            this.Column7.Name = "Column7";
-            this.Column7.ReadOnly = true;
-            // 
-            // Column9
-            // 
-            this.Column9.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column9.DataPropertyName = "c7";
-            this.Column9.HeaderText = "Số ca nặng";
-            this.Column9.Name = "Column9";
-            this.Column9.ReadOnly = true;
-            // 
-            // Column8
-            // 
-            this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column8.DataPropertyName = "c8";
-            this.Column8.HeaderText = "Số ca nhiễm trên 1 triệu dân";
-            this.Column8.Name = "Column8";
-            this.Column8.ReadOnly = true;
-            // 
-            // Column11
-            // 
-            this.Column11.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column11.DataPropertyName = "c9";
-            this.Column11.HeaderText = "Số ca tử vong trên 1 triệu dân";
-            this.Column11.Name = "Column11";
-            this.Column11.ReadOnly = true;
-            // 
-            // Column10
-            // 
-            this.Column10.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Column10.DataPropertyName = "c10";
-            this.Column10.HeaderText = "Thời điểm phát hiện ca đầu tiên";
-            this.Column10.Name = "Column10";
-            this.Column10.ReadOnly = true;
-            this.Column10.Visible = false;
-            // 
-            // linkLabel_news
-            // 
-            this.linkLabel_news.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.linkLabel_news.AutoSize = true;
-            this.linkLabel_news.Location = new System.Drawing.Point(809, 558);
-            this.linkLabel_news.Name = "linkLabel_news";
-            this.linkLabel_news.Size = new System.Drawing.Size(223, 13);
-            this.linkLabel_news.TabIndex = 3;
-            this.linkLabel_news.TabStop = true;
-            this.linkLabel_news.Text = "ĐỌC TIN TỨC CHÍNH THỐNG VỀ COVID-19";
-            this.linkLabel_news.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_news_LinkClicked);
+            this.button_news_search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_news_search.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_news_search.Location = new System.Drawing.Point(957, 8);
+            this.button_news_search.Name = "button_news_search";
+            this.button_news_search.Size = new System.Drawing.Size(75, 21);
+            this.button_news_search.TabIndex = 4;
+            this.button_news_search.Text = "Tìm kiếm";
+            this.button_news_search.UseVisualStyleBackColor = true;
+            this.button_news_search.Click += new System.EventHandler(this.button_news_search_Click);
             // 
             // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1046, 622);
-            this.Controls.Add(this.label_loading);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form_Main";
@@ -844,6 +923,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabControl1.ResumeLayout(false);
+            this.tabPage5.ResumeLayout(false);
+            this.tabPage5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -913,6 +994,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column11;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column10;
         private System.Windows.Forms.LinkLabel linkLabel_news;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.ComboBox comboBox_news;
+        private System.Windows.Forms.CheckBox checkBox_auto_update;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Panel panel_news;
+        private System.Windows.Forms.Button button_news_search;
+        private System.Windows.Forms.TextBox textBox_news_search;
     }
 }
 

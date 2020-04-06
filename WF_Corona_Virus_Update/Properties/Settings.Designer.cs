@@ -34,5 +34,17 @@ namespace WF_Corona_Virus_Update.Properties {
                 this["is_first"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool is_auto_update {
+            get {
+                return ((bool)(this["is_auto_update"]));
+            }
+            set {
+                this["is_auto_update"] = value;
+            }
+        }
     }
 }

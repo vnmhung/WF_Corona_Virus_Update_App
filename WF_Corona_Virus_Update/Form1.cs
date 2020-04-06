@@ -15,16 +15,44 @@ using System.Net;
 using IWshRuntimeLibrary;
 using System.IO;
 using System.Reflection;
+using CefSharp;
+using CefSharp.WinForms;
 
 namespace WF_Corona_Virus_Update
 {
     public partial class Form_Main : Form
     {
-        string url = "https://www.worldometers.info/coronavirus/";
-
         List<string> list_country = new List<string>();
         List<List<string>> result = new List<List<string>>();
         DataTable tb_all = new DataTable();
+
+        public ChromiumWebBrowser browser;
+
+        string url = "https://www.worldometers.info/coronavirus/";
+
+        string[] url_news =
+        {
+            "https://baomoi.com/phong-chong-dich-covid-19/top/328.epi",
+            "https://baomoi.com/tag/COVID_19.epi",
+            "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/news",
+            "https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artist/60I080O8.html",
+            "https://zingnews.vn/Covid-19-tim-kiem.html",
+            "https://thanhnien.vn/tin-tuc/covid-19.html",
+            "https://www.24h.com.vn/dich-covid-19-c62e6058.html",
+            "https://www.youtube.com/results?search_query=covid+19",
+        };
+
+        string[] tt_news =
+        {
+            "Báo mới - PHÒNG CHỐNG DỊCH COVID-19",
+            "Báo mới - TAG/COVID-19",
+            "WHO Website - Coronavirus disease (COVID-19) Pandemic",
+            "Zing MP3 - Nghe nhạc về COVID-19",
+            "Zing News - COVID-19",
+            "Báo Thanh Niên - COVID-19",
+            "Tin tức 24h - COVID-19",
+            "Youtube - COVID-19",
+        };
 
         public Form_Main()
         {
@@ -47,7 +75,7 @@ namespace WF_Corona_Virus_Update
 
             if (Check_For_Internet_Connection() == false)
             {
-                MessageBox.Show("Xin lỗi, máy tính của bạn không có kết nối Internet.\nVui lòng sử dụng lần sau nhé!\n\n- From Hùng with Love -","Corona Virus Update App thông báo");
+                MessageBox.Show("Xin lỗi, máy tính của bạn hiện không có kết nối Internet.\nVui lòng sử dụng app lần sau nhé!\n\n- From Hùng with Love -","Corona Virus Update App thông báo");
                 this.Close();
             }
 
@@ -59,19 +87,33 @@ namespace WF_Corona_Virus_Update
                     checkBox_autorun.Checked = true;
             }
 
+            if (Properties.Settings.Default.is_auto_update)
+                checkBox_auto_update.Checked = true;
+            else
+                checkBox_auto_update.Checked = false;
+
             tb_all.Columns.Add("c0", typeof(string));
-            tb_all.Columns.Add("c1", typeof(int));
-            tb_all.Columns.Add("c2", typeof(int));
-            tb_all.Columns.Add("c3", typeof(int));
-            tb_all.Columns.Add("c4", typeof(int));
-            tb_all.Columns.Add("c5", typeof(int));
-            tb_all.Columns.Add("c6", typeof(int));
-            tb_all.Columns.Add("c7", typeof(int));
-            tb_all.Columns.Add("c8", typeof(int));
-            tb_all.Columns.Add("c9", typeof(int));
+            int _i = 1;
+            while (_i < 10)
+            {
+                tb_all.Columns.Add("c"+_i.ToString(), typeof(int));
+                _i++;
+            }
             tb_all.Columns.Add("c10", typeof(string));
 
             _ = get_all_data();
+
+            setup_browser();
+        }
+
+        private void setup_browser()
+        {
+            comboBox_news.Items.AddRange(tt_news);
+
+            Cef.Initialize(new CefSettings());
+            browser = new ChromiumWebBrowser(url_news[0]);
+            tabPage5.Controls.Add(browser);
+            browser.Dock = DockStyle.Fill;
         }
 
         private async Task get_data(string ten_nuoc)
@@ -299,7 +341,8 @@ namespace WF_Corona_Virus_Update
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            get_all_data();
+            if(Properties.Settings.Default.is_auto_update)
+                get_all_data();
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -309,7 +352,7 @@ namespace WF_Corona_Virus_Update
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //System.Diagnostics.Process.Start(url);
+            System.Diagnostics.Process.Start(url);
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -381,6 +424,23 @@ namespace WF_Corona_Virus_Update
             //shortcut.IconLocation = Application.StartupPath + @"\icon.ico";
             shortcut.TargetPath = targetFileLocation;
             shortcut.Save();
+        }
+
+        private void comboBox_news_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //webBrowser_news.Navigate(url_news[comboBox_news.SelectedIndex]);
+            browser.Load(url_news[comboBox_news.SelectedIndex]);
+        }
+
+        private void checkBox_auto_update_CheckedChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.is_auto_update = checkBox_auto_update.Checked;
+            Properties.Settings.Default.Save();
+        }
+
+        private void button_news_search_Click(object sender, EventArgs e)
+        {
+            browser.Load(textBox_news_search.Text);
         }
     }    
 }
