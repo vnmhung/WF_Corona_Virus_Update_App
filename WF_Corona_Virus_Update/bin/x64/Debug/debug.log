@@ -1086,3 +1086,27 @@ C:\fakepath(83,8-40): warning X3571: pow(f, e) will not work for negative f, use
 C:\fakepath(113,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 C:\fakepath(125,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
 
+[0406/190549.897:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(40,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0406/190552.634:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0406/190553.063:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0406/190553.350:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://za.zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artist/60I080O8.html (0)
+[0406/190553.351:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artist/60I080O8.html (0)
+[0406/190553.359:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js (1)
+[0406/190555.343:INFO:CONSOLE(0)] "ResizeObserver loop limit exceeded", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artist/60I080O8.html (0)
+[0406/190555.689:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(60,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0406/190555.784:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(75,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(98,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0406/190555.822:INFO:CONSOLE(1)] "InitAds", source: https://static-zmp3.zadn.vn/skins/zmp3-v5.2/static/js/main.63576ae5.js (1)
+[0406/190557.047:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://api.adtimaserver.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artist/60I080O8.html (0)
+[0406/190600.741:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(113,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(125,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
