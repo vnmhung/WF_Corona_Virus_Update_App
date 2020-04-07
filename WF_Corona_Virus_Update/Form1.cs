@@ -41,6 +41,7 @@ namespace WF_Corona_Virus_Update
             "https://thanhnien.vn/tin-tuc/covid-19.html",
             "https://www.24h.com.vn/dich-covid-19-c62e6058.html",
             "https://www.youtube.com/results?search_query=covid+19",
+            "https://www.worldometers.info/coronavirus/"
         };
 
         string[] tt_news =
@@ -53,6 +54,7 @@ namespace WF_Corona_Virus_Update
             "Báo Thanh Niên - COVID-19",
             "Tin tức 24h - COVID-19",
             "Youtube - COVID-19",
+            "Worldometers.info - Thống kê Corona virus"
         };
 
         public Form_Main()
@@ -102,9 +104,9 @@ namespace WF_Corona_Virus_Update
             }
             tb_all.Columns.Add("c10", typeof(string));
 
-            setup_browser();
-
             _ = get_all_data();
+
+            setup_browser();
         }
 
         private void setup_browser()
@@ -358,7 +360,8 @@ namespace WF_Corona_Virus_Update
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(url);
+            //System.Diagnostics.Process.Start(url);
+            goto_website(url);
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -368,12 +371,14 @@ namespace WF_Corona_Virus_Update
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://vnmhung.netlify.com/");
+            //System.Diagnostics.Process.Start("https://vnmhung.netlify.com/");
+            goto_website("https://vnmhung.netlify.com/");
         }
 
         private void linkLabel_news_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("https://baomoi.com/phong-chong-dich-covid-19/top/328.epi");
+            //System.Diagnostics.Process.Start("https://baomoi.com/phong-chong-dich-covid-19/top/328.epi");
+            goto_website("https://baomoi.com/phong-chong-dich-covid-19/top/328.epi");
         }
 
         private void textBox_search_TextChanged(object sender, EventArgs e)
@@ -468,6 +473,12 @@ namespace WF_Corona_Virus_Update
         {
             Properties.Settings.Default.last_url = browser.Address;
             Properties.Settings.Default.Save();
+        }
+
+        private void goto_website(string _u)
+        {
+            tabControl1.SelectedIndex = tabControl1.TabPages.IndexOf(tabPage5);
+            browser.Load(_u);
         }
     }    
 }
