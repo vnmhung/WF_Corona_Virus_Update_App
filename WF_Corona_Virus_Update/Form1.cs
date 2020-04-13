@@ -66,20 +66,21 @@ namespace WF_Corona_Virus_Update
         {
             if (Properties.Settings.Default.is_first)
             {
+                Properties.Settings.Default.is_first = false;
+                Properties.Settings.Default.Save();
                 CreateShortcut("Corona Virus Update", Environment.GetFolderPath(Environment.SpecialFolder.Desktop), Assembly.GetExecutingAssembly().Location);
                 using (RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true))
                 {
                     key.SetValue("Corona Update App", "\"" + Application.ExecutablePath + "\"");
                 }
                 checkBox_autorun.Checked = true;
-                Properties.Settings.Default.is_first = false;
-                Properties.Settings.Default.Save();
             }
 
             if (Check_For_Internet_Connection() == false)
             {
                 MessageBox.Show("Xin lỗi, máy tính của bạn hiện không có kết nối Internet.\nVui lòng sử dụng app lần sau nhé!\n\n- From Hùng with Love -","Corona Virus Update App thông báo");
-                this.Close();
+                if(Check_For_Internet_Connection() == false)
+                    this.Close();
             }
 
             using (RegistryKey key = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true))
@@ -115,16 +116,27 @@ namespace WF_Corona_Virus_Update
 
             Cef.Initialize(new CefSettings());
             last_url = Properties.Settings.Default.last_url;
-            if (last_url == "")
-                browser = new ChromiumWebBrowser(url_news[3]);
-            else
+
+            Uri uriResult;
+            bool _isUrl = Uri.TryCreate(last_url, UriKind.Absolute, out uriResult)
+                && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
+            if (_isUrl)
                 browser = new ChromiumWebBrowser(last_url);
+            else
+                browser = new ChromiumWebBrowser(url_news[3]);
+                            
             panel_news.Controls.Add(browser);
             browser.Dock = DockStyle.Fill;
         }
 
         private async Task get_data(string ten_nuoc)
         {
+            if (Check_For_Internet_Connection() == false)
+            {
+                label_loading.Visible = true;
+                label_loading.Text = "KHÔNG CÓ KÊT NỐI INTERNET!";
+                return;
+            }
             List<string> res = new List<string>();
 
             string url_crawl = url;
@@ -166,6 +178,12 @@ namespace WF_Corona_Virus_Update
 
         private async Task get_all_data()
         {
+            if(Check_For_Internet_Connection() == false)
+            {
+                label_loading.Visible = true;
+                label_loading.Text = "KHÔNG CÓ KÊT NỐI INTERNET!";
+                return;
+            }
             try
             {
                 label_loading.Visible = true;
@@ -251,7 +269,7 @@ namespace WF_Corona_Virus_Update
 
                         tb_all.Rows.Add(dtr);
 
-                        if (_ten_khu_vuc.Equals("Total:"))
+                        if (_ten_khu_vuc.Equals("World"))
                         {
                             label_nhiem_tg.Text = res[1];
                             label_chet_tg.Text = res[3];
@@ -286,7 +304,7 @@ namespace WF_Corona_Virus_Update
             catch (Exception ee)
             {
                 label_loading.Visible = false;
-                MessageBox.Show(ee.ToString());
+                //MessageBox.Show(ee.ToString());
             }
 
         }
@@ -439,7 +457,14 @@ namespace WF_Corona_Virus_Update
 
         private void comboBox_news_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (Check_For_Internet_Connection() == false)
+            {
+                label_loading.Visible = true;
+                label_loading.Text = "KHÔNG CÓ KÊT NỐI INTERNET!";
+                return;
+            }
             browser.Load(url_news[comboBox_news.SelectedIndex]);
+            label_loading.Text = "";
         }
 
         private void checkBox_auto_update_CheckedChanged(object sender, EventArgs e)
@@ -450,6 +475,12 @@ namespace WF_Corona_Virus_Update
 
         private void button_news_search_Click(object sender, EventArgs e)
         {
+            if (Check_For_Internet_Connection() == false)
+            {
+                label_loading.Visible = true;
+                label_loading.Text = "KHÔNG CÓ KÊT NỐI INTERNET!";
+                return;
+            }
             string _str = textBox_news_search.Text;
             Uri uriResult;
             bool _isUrl = Uri.TryCreate(_str, UriKind.Absolute, out uriResult)
@@ -458,6 +489,7 @@ namespace WF_Corona_Virus_Update
                 browser.Load(_str);
             else
                 browser.Load("https://www.google.com/search?q=" + _str);
+            label_loading.Text = "";
         }
 
         private void textBox_news_search_KeyDown(object sender, KeyEventArgs e)
@@ -471,14 +503,31 @@ namespace WF_Corona_Virus_Update
 
         private void Form_Main_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Properties.Settings.Default.last_url = browser.Address;
-            Properties.Settings.Default.Save();
+            try
+            {
+                if(browser.Address.Length > 0)
+                {
+                    Properties.Settings.Default.last_url = browser.Address;
+                    Properties.Settings.Default.Save();
+                }
+            }
+            catch (Exception)
+            {
+
+            }
         }
 
         private void goto_website(string _u)
         {
+            if (Check_For_Internet_Connection() == false)
+            {
+                label_loading.Visible = true;
+                label_loading.Text = "KHÔNG CÓ KÊT NỐI INTERNET!";
+                return;
+            }
             tabControl1.SelectedIndex = tabControl1.TabPages.IndexOf(tabPage5);
             browser.Load(_u);
+            label_loading.Text = "";
         }
     }    
 }
