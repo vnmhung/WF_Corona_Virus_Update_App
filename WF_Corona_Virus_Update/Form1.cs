@@ -41,7 +41,8 @@ namespace WF_Corona_Virus_Update
             "https://thanhnien.vn/tin-tuc/covid-19.html",
             "https://www.24h.com.vn/dich-covid-19-c62e6058.html",
             "https://www.youtube.com/results?search_query=covid+19",
-            "https://www.worldometers.info/coronavirus/"
+            "https://www.worldometers.info/coronavirus/",
+            "https://www.worldometers.info/coronavirus/country/viet-nam/"
         };
 
         string[] tt_news =
@@ -54,7 +55,8 @@ namespace WF_Corona_Virus_Update
             "Báo Thanh Niên - COVID-19",
             "Tin tức 24h - COVID-19",
             "Youtube - COVID-19",
-            "Worldometers.info - Thống kê Corona virus"
+            "Worldometers.info - Thống kê Corona virus",
+            "Worldometers.info - Thống kê Corona virus Việt Nam"
         };
 
         public Form_Main()
@@ -208,7 +210,8 @@ namespace WF_Corona_Virus_Update
                     var _tr = _tbody1.Descendants("tr").ToList();
                     foreach (var _tr1 in _tr)
                     {
-                        var _ten_khu_vuc = _tr1.Descendants("td").ToList()[0].InnerText;
+                        //lấy danh sách tên quốc gia
+                        var _ten_khu_vuc = _tr1.Descendants("td").ToList()[1].InnerText;
                         list_country.Add(_ten_khu_vuc as string);
 
                         var td_TG = htmlDocument.DocumentNode.Descendants("td")
@@ -217,39 +220,54 @@ namespace WF_Corona_Virus_Update
                         var tr_TG = td_TG[0].ParentNode.Descendants("td").ToList();
 
                         List<string> res = new List<string>();
-                        //Khu vực
-                        res.Add(tr_TG[0].InnerText);
-                        //Tổng số ca nhiễm
+                        //tên khu vực - quốc gia
                         res.Add(tr_TG[1].InnerText);
-                        //Số ca nhiễm mới (24h qua)
+                        //Tổng số ca nhiễm
                         res.Add(tr_TG[2].InnerText);
-                        //Số ca tử vong
+                        //Số ca nhiễm mới (24h qua)
                         res.Add(tr_TG[3].InnerText);
-                        //Số ca tử vong mới (24h qua)
+                        //Số ca tử vong
                         res.Add(tr_TG[4].InnerText);
-                        //Số ca chữa khỏi
+                        //Số ca tử vong mới (24h qua)
                         res.Add(tr_TG[5].InnerText);
-                        //Số ca hiện đang điều trị
+                        //Số ca chữa khỏi
                         res.Add(tr_TG[6].InnerText);
-                        //Số ca nặng
+                        //Số ca hiện đang điều trị
                         res.Add(tr_TG[7].InnerText);
-                        //Số ca nhiễm trên 1 triệu dân
+                        //Số ca nặng
                         res.Add(tr_TG[8].InnerText);
-                        //Số ca tử vong trên 1 triệu dân
+                        //Số ca nhiễm trên 1 triệu dân
                         res.Add(tr_TG[9].InnerText);
+                        //Số ca tử vong trên 1 triệu dân
+                        res.Add(tr_TG[10].InnerText);
                         //Thời điểm phát hiện ca nhiễm đầu tiên
                         res.Add("");// tr_TG[10].InnerText);
+
+                        //tìm để tránh tải trùng
+                        if (res[0] == "Total:")
+                            continue;
+                        int _trung_lap = 0;
+                        for(int _i = 0; _i < result.Count; _i++)
+                        {
+                            if(res[0] == result[_i][0])
+                            {
+                                _trung_lap = 1;
+                                break;
+                            }
+                        }
+                        if (_trung_lap == 1)
+                            continue;
 
                         result.Add(res);
 
                         object[] dtr = new object[11];
-                        dtr[0] = tr_TG[0].InnerText;
+                        dtr[0] = tr_TG[1].InnerText;
                         dtr[10] = "";// tr_TG[10].InnerText;
                         for (int i = 1; i <= 9; i++)
                         {
                             try
                             {
-                                var str = tr_TG[i].InnerText;
+                                var str = tr_TG[i+1].InnerText;
                                 foreach (var c in str)
                                 {
                                     if (c < '0' || c > '9')
