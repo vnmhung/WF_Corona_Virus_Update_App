@@ -33,6 +33,7 @@ namespace WF_Corona_Virus_Update
 
         string[] url_news =
         {
+            "https://moh.gov.vn/",
             "https://baomoi.com/phong-chong-dich-covid-19/top/328.epi",
             "https://baomoi.com/tag/COVID_19.epi",
             "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/media-resources/news",
@@ -47,6 +48,7 @@ namespace WF_Corona_Virus_Update
 
         string[] tt_news =
         {
+            "Trang chủ Bộ Y tế",
             "Báo mới - PHÒNG CHỐNG DỊCH COVID-19",
             "Báo mới - TAG/COVID-19",
             "WHO Website - Coronavirus disease (COVID-19) Pandemic",
@@ -125,7 +127,7 @@ namespace WF_Corona_Virus_Update
             if (_isUrl)
                 browser = new ChromiumWebBrowser(last_url);
             else
-                browser = new ChromiumWebBrowser(url_news[3]);
+                browser = new ChromiumWebBrowser(url_news[0]);
                             
             panel_news.Controls.Add(browser);
             browser.Dock = DockStyle.Fill;
@@ -413,8 +415,8 @@ namespace WF_Corona_Virus_Update
 
         private void linkLabel_news_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            //System.Diagnostics.Process.Start("https://baomoi.com/phong-chong-dich-covid-19/top/328.epi");
-            goto_website("https://baomoi.com/phong-chong-dich-covid-19/top/328.epi");
+            //System.Diagnostics.Process.Start("url_news[0]");
+            goto_website(url_news[0]);
         }
 
         private void textBox_search_TextChanged(object sender, EventArgs e)
