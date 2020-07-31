@@ -102,12 +102,12 @@ namespace WF_Corona_Virus_Update
 
             tb_all.Columns.Add("c0", typeof(string));
             int _i = 1;
-            while (_i < 10)
+            while (_i <= 12)
             {
                 tb_all.Columns.Add("c"+_i.ToString(), typeof(int));
                 _i++;
             }
-            tb_all.Columns.Add("c10", typeof(string));
+            //tb_all.Columns.Add("c10", typeof(string));
 
             _ = get_all_data();
 
@@ -131,53 +131,6 @@ namespace WF_Corona_Virus_Update
                             
             panel_news.Controls.Add(browser);
             browser.Dock = DockStyle.Fill;
-        }
-
-        private async Task get_data(string ten_nuoc)
-        {
-            if (Check_For_Internet_Connection() == false)
-            {
-                label_loading.Visible = true;
-                label_loading.Text = "KHÔNG CÓ KÊT NỐI INTERNET!";
-                return;
-            }
-            List<string> res = new List<string>();
-
-            string url_crawl = url;
-            var httpClient = new HttpClient();
-            var html = await httpClient.GetStringAsync(url_crawl);
-            var htmlDocument = new HtmlAgilityPack.HtmlDocument();
-            htmlDocument.LoadHtml(html);
-
-            var td_TG = htmlDocument.DocumentNode.Descendants("td")
-               .Where(node => node.InnerText.Equals(ten_nuoc)).ToList();
-            
-            var tr_TG = td_TG[0].ParentNode.Descendants("td").ToList();
-
-            //Khu vực
-            res.Add(tr_TG[0].InnerText);
-            //Tổng số ca nhiễm
-            res.Add(tr_TG[1].InnerText);
-            //Số ca nhiễm mới (24h qua)
-            res.Add(tr_TG[2].InnerText);
-            //Số ca tử vong
-            res.Add(tr_TG[3].InnerText);
-            //Số ca tử vong mới (24h qua)
-            res.Add(tr_TG[4].InnerText);
-            //Số ca chữa khỏi
-            res.Add(tr_TG[5].InnerText);
-            //Số ca hiện đang điều trị
-            res.Add(tr_TG[6].InnerText);
-            //Số ca nặng
-            res.Add(tr_TG[7].InnerText);
-            //Số ca nhiễm trên 1 triệu dân
-            res.Add(tr_TG[8].InnerText);
-            //Số ca tử vong trên 1 triệu dân
-            res.Add(tr_TG[9].InnerText);
-            //Thời điểm phát hiện ca nhiễm đầu tiên
-            res.Add(tr_TG[10].InnerText);
-
-            //return res;
         }
 
         private async Task get_all_data()
@@ -222,28 +175,36 @@ namespace WF_Corona_Virus_Update
                         var tr_TG = td_TG[0].ParentNode.Descendants("td").ToList();
 
                         List<string> res = new List<string>();
-                        //tên khu vực - quốc gia
+
+                        // 0 tên khu vực - quốc gia
                         res.Add(tr_TG[1].InnerText);
-                        //Tổng số ca nhiễm
+                        // 1 Tổng số ca nhiễm
                         res.Add(tr_TG[2].InnerText);
-                        //Số ca nhiễm mới (24h qua)
+                        // 2 Số ca nhiễm mới 
                         res.Add(tr_TG[3].InnerText);
-                        //Số ca tử vong
+                        // 3 Số ca tử vong
                         res.Add(tr_TG[4].InnerText);
-                        //Số ca tử vong mới (24h qua)
+                        // 4 Số ca tử vong mới
                         res.Add(tr_TG[5].InnerText);
-                        //Số ca chữa khỏi
+                        // 5 Số ca chữa khỏi
                         res.Add(tr_TG[6].InnerText);
-                        //Số ca hiện đang điều trị
-                        res.Add(tr_TG[7].InnerText);
-                        //Số ca nặng
+
+                        //có 1 cột thừa
+
+                        // 6 Số ca hiện đang dương tính
                         res.Add(tr_TG[8].InnerText);
-                        //Số ca nhiễm trên 1 triệu dân
+                        // 7 Số ca nặng
                         res.Add(tr_TG[9].InnerText);
-                        //Số ca tử vong trên 1 triệu dân
+                        // 8 Số ca nhiễm trên 1 triệu dân
                         res.Add(tr_TG[10].InnerText);
-                        //Thời điểm phát hiện ca nhiễm đầu tiên
-                        res.Add("");// tr_TG[10].InnerText);
+                        // 9 Số ca tử vong trên 1 triệu dân
+                        res.Add(tr_TG[11].InnerText);
+                        // 10 số xét nghiệm
+                        res.Add(tr_TG[12].InnerText);
+                        // 11 số xét nghiệm trên 1 triệu dân
+                        res.Add(tr_TG[13].InnerText);
+                        // 12 Dân số
+                        res.Add(tr_TG[14].InnerText);
 
                         //tìm để tránh tải trùng
                         if (res[0] == "Total:")
@@ -262,17 +223,17 @@ namespace WF_Corona_Virus_Update
 
                         result.Add(res);
 
-                        object[] dtr = new object[11];
-                        dtr[0] = tr_TG[1].InnerText;
-                        dtr[10] = "";// tr_TG[10].InnerText;
-                        for (int i = 1; i <= 9; i++)
+                        //bỏ các ký tự lạ ra khỏi kết quả, giữ lại số
+                        object[] dtr = new object[13];
+                        dtr[0] = res[0];
+                        for (int i = 1; i <= 12; i++)
                         {
                             try
                             {
-                                var str = tr_TG[i+1].InnerText;
+                                var str = res[i];
                                 foreach (var c in str)
                                 {
-                                    if (c < '0' || c > '9')
+                                    if ((c < '0' || c > '9') && c!='.')
                                         str = str.Replace(c + "", string.Empty);
                                 }
                                 if (str == "")
@@ -282,8 +243,7 @@ namespace WF_Corona_Virus_Update
                             }
                             catch (Exception ee)
                             {
-                                //dtr[i] = tr_TG[i].InnerText;
-                                //MessageBox.Show(dtr[i] + ee.ToString());
+                                
                             }
                         }
 
@@ -324,7 +284,7 @@ namespace WF_Corona_Virus_Update
             catch (Exception ee)
             {
                 label_loading.Visible = false;
-                //MessageBox.Show(ee.ToString());
+                MessageBox.Show(ee.ToString());
             }
 
         }

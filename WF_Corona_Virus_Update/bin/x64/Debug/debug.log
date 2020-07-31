@@ -13809,3 +13809,1888 @@ C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use
 [0629/141954.672:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
 [0629/141959.694:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
 [0629/142004.705:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0712/162145.186:ERROR:cache_util_win.cc(21)] Unable to move the cache: The system cannot find the file specified. (0x2)
+[0712/162145.187:ERROR:cache_util.cc(141)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0712/162145.187:ERROR:disk_cache.cc(178)] Unable to create cache
+[0712/162145.187:ERROR:shader_disk_cache.cc(605)] Shader Cache Creation failed: -2
+[0712/162145.449:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(40,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0712/162149.622:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(75,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(98,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0712/162150.444:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(60,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0712/162158.159:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162159.760:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162200.279:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162200.505:INFO:CONSOLE(1)] "Video gallery initializing", source: https://freestar-io.videoplayerhub.com/gallery.js (1)
+[0712/162200.955:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162201.329:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162205.849:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0712/162205.936:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0712/162206.044:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0712/162206.141:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0712/162207.290:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 5
+[0712/162237.074:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(49,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(61,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0712/162309.826:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162310.212:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0712/162310.762:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://za.zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0712/162310.762:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0712/162310.781:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js (1)
+[0712/162311.272:INFO:CONSOLE(23)] "[Facebook Pixel] - Unable to parse JSON-LD tag. Malformed JSON found: '
+    {
+    "@context": "http://schema.org",
+    "@type": "MusicPlaylist",
+    "name": "Cùng Nhau Đẩy Xa Corona - Various Artists - Zing MP3",
+    "url": "https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html",
+    "image": "https://zmp3-photo-fbcrawler.zadn.vn/cover_video/9/2/2/f/922f940693fc5162da9124bb7b42c3db.jpg",
+    "description": "Cùng Nhau Đẩy Xa Corona - Various Artists - Zing MP3",
+    "thumbnailUrl": "https://zmp3-photo-fbcrawler.zadn.vn/cover_video/9/2/2/f/922f940693fc5162da9124bb7b42c3db.jpg",
+    "numTracks": "17",
+    
+    "genre":"Việt Nam,Nhạc Trẻ,V-Pop",
+    
+    
+    "track": {
+        "@type": "ItemList",
+        "numberOfItems": 17,
+        "itemListElement": [
+            
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "url": "https://zingmp3.vn/bai-hat/Chong-Dich-Nhu-Chong-Giac-Ung-Dai-Ve/ZWBWCCII.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Chống Dịch Như Chống Giặc",
+                    "duration": "PT2M33S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Ưng Đại Vệ",
+                        "url": "https://zingmp3.vn/nghe-si/Ung-Dai-Ve"
+                        }
+                        
+                    ]
+                    
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "url": "https://zingmp3.vn/bai-hat/Ghen-Co-Vy-MIN-ERIK/ZWBWZBE6.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Ghen Cô Vy",
+                    "duration": "PT3M10S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "MIN",
+                        "url": "https://zingmp3.vn/nghe-si/Min"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "ERIK",
+                        "url": "https://zingmp3.vn/nghe-si/ERIK"
+                        }
+                        
+                    ]
+                    
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "url": "https://zingmp3.vn/bai-hat/Viet-Nam-Se-Chien-Thang-Various-Artists/ZWBW97D8.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Việt Nam Sẽ Chiến Thắng",
+                    "duration": "PT2M27S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Various Artists",
+                        "url": "https://zingmp3.vn/nghe-si/Various-Artists"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Việt Nam Sẽ Chiến Thắng (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "url": "https://zingmp3.vn/bai-hat/Sao-Anh-Chua-Ve-Nha-HappyAtHome-AMEE/ZWBWUOB9.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Sao Anh Chưa Về Nhà (#HappyAtHome)",
+                    "duration": "PT2M37S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "AMEE",
+                        "url": "https://zingmp3.vn/nghe-si/AMEE"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Sao Anh Chưa Về Nhà (#HappyAtHome) (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "url": "https://zingmp3.vn/bai-hat/Tien-Covid-Le-Thien-Hieu/ZWBW887Z.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Tiễn Covid",
+                    "duration": "PT3M7S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Lê Thiện Hiếu",
+                        "url": "https://zingmp3.vn/nghe-si/Le-Thien-Hieu"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Tiễn Covid (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "url": "https://zingmp3.vn/bai-hat/Bai-Ca-Cach-Ly-Tung-Maru-Huynh-Hien-Nang-Hoang-Yen-Chibi/ZWBW86BD.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Bài Ca Cách Ly",
+                    "duration": "PT2M48S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Tùng Maru",
+                        "url": "https://zingmp3.vn/nghe-si/Tung-Maru"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Huỳnh Hiền Năng",
+                        "url": "https://zingmp3.vn/nghe-si/Huynh-Hien-Nang"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Hoàng Yến Chibi",
+                        "url": "https://zingmp3.vn/nghe-si/Hoang-Yen-Chibi"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Bài Ca Cách Ly (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 7,
+                "url": "https://zingmp3.vn/bai-hat/Co-Na-Di-Xa-OSAD/ZWBWW8CB.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Cô Na Đi Xa",
+                    "duration": "PT3M0S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "OSAD",
+                        "url": "https://zingmp3.vn/nghe-si/OSAD"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Cô Na Đi Xa (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 8,
+                "url": "https://zingmp3.vn/bai-hat/Vu-Dieu-Cach-Ly-Huong-Ly-Phung-Tien-Minh/ZWBW98W6.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Vũ Điệu Cách Ly",
+                    "duration": "PT3M4S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Hương Ly",
+                        "url": "https://zingmp3.vn/nghe-si/Nguyen-Huong-Ly"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Phùng Tiến Minh",
+                        "url": "https://zingmp3.vn/nghe-si/Tien-Minh"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Vũ Điệu Cách Ly (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 9,
+                "url": "https://zingmp3.vn/bai-hat/Chau-Con-Tien-Rong-Ngai-Gi-Corona-Nguyen-Jenda-Bao-Yen-Rosie-Yen-Tatoo-Pham-Viet-Thang-Y-Tien/ZWBW8EUW.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Cháu Con Tiên Rồng Ngại Gì Corona",
+                    "duration": "PT3M46S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Nguyên Jenda",
+                        "url": "https://zingmp3.vn/nghe-si/Nguyen-Jenda-IWZAE789"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Bảo Yến Rosie",
+                        "url": "https://zingmp3.vn/nghe-si/Dinh-Bao-Yen"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Yến Tatoo",
+                        "url": "https://zingmp3.vn/nghe-si/Yen-Tatoo"
+                        },
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Cháu Con Tiên Rồng Ngại Gì Corona (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 10,
+                "url": "https://zingmp3.vn/bai-hat/Viet-Nam-Oi-Danh-Bay-Covid-Minh-Beta/ZWBWIWU8.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Việt Nam Ơi! Đánh Bay Covid",
+                    "duration": "PT3M57S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Minh Beta",
+                        "url": "https://zingmp3.vn/nghe-si/Minh-Beta"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Việt Nam Ơi! Đánh Bay Covid (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 11,
+                "url": "https://zingmp3.vn/bai-hat/Dung-Yeu-Nham-Co-Vy-Do-Hoang-Duong/ZWBW6UUI.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Đừng Yêu Nhầm Cô Vy",
+                    "duration": "PT3M39S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Đỗ Hoàng Dương",
+                        "url": "https://zingmp3.vn/nghe-si/Do-Hoang-Duong"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Đừng Yêu Nhầm Cô Vy (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 12,
+                "url": "https://zingmp3.vn/bai-hat/Khong-Fake-News-Da-LAB/ZWBWO98Z.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Không Fake News",
+                    "duration": "PT3M10S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Da LAB",
+                        "url": "https://zingmp3.vn/nghe-si/Da-LAB-Band"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Không Fake News (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 13,
+                "url": "https://zingmp3.vn/bai-hat/O-Nha-Anh-Van-Vui-Trung-Tu/ZWBW6B6I.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Ở Nhà Anh Vẫn Vui",
+                    "duration": "PT2M40S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Trung Tự",
+                        "url": "https://zingmp3.vn/nghe-si/Trung-Tu"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Ở Nhà Anh Vẫn Vui (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 14,
+                "url": "https://zingmp3.vn/bai-hat/Corona-Di-Ra-Xa-Pham-Dinh-Thai-Ngan-Long-Min/ZWBWO98B.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Corona Đi Ra Xa!!!",
+                    "duration": "PT2M51S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Phạm Đình Thái Ngân",
+                        "url": "https://zingmp3.vn/nghe-si/Pham-Dinh-Thai-Ngan"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Long Min",
+                        "url": "https://zingmp3.vn/nghe-si/Long-Min"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Corona Đi Ra Xa!!! (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 15,
+                "url": "https://zingmp3.vn/bai-hat/Mau-Ao-Anh-Hung-Vicky-Nhung/ZWBW70WU.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Màu Áo Anh Hùng",
+                    "duration": "PT4M27S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Vicky Nhung",
+                        "url": "https://zingmp3.vn/nghe-si/Vicky-Nhung"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Màu Áo Anh Hùng (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 16,
+                "url": "https://zingmp3.vn/bai-hat/Sai-Lam-Co-Vy-Dinh-Dung/ZWBWOB9B.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Sai Lầm Cô Vy",
+                    "duration": "PT4M42S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Đình Dũng",
+                        "url": "https://zingmp3.vn/nghe-si/Dinh-Dung"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Sai Lầm Cô Vy (Single)"
+                    
+                }
+            }
+            
+        ]
+    }
+  }
+'.", source: https://connect.facebook.net/en_US/fbevents.js (23)
+[0712/162313.604:INFO:CONSOLE(2)] "InitAds", source: https://zjs.zadn.vn/zmp3-desktop/releases/v0.1.19/static/js/main.min.js (2)
+[0712/162317.984:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(113,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(125,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0712/162318.146:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0712/162318.150:INFO:CONSOLE(48)] "host: lt-comm-2.zapps.vn:8101, test_set: small(98 bytes), n_testcase: 2000, rate:10", source: https://zjs.zadn.vn/zmp3-desktop/releases/v0.1.19/js/perf_test.js (48)
+[0712/162318.152:INFO:CONSOLE(48)] "host: lt-comm-1.zapps.vn:8001, test_set: small(70 bytes), n_testcase: 2000, rate:10", source: https://zjs.zadn.vn/zmp3-desktop/releases/v0.1.19/js/perf_test.js (48)
+[0712/162318.889:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://api.adtimaserver.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0712/162339.985:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
+[0712/162340.145:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162340.599:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://api.adtimaserver.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
+[0712/162340.664:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0712/162341.351:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js (1)
+[0712/162341.506:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
+[0712/162342.025:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162342.120:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://lg.nanda.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
+[0712/162342.276:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162343.367:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://csync.loopme.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
+[0712/162345.990:INFO:CONSOLE(48)] "host: lt-comm-2.zapps.vn:8101, test_set: small(98 bytes), n_testcase: 2000, rate:10", source: https://static-znews.zadn.vn/js/comm_client/perf_test.js (48)
+[0712/162345.991:INFO:CONSOLE(48)] "host: lt-comm-1.zapps.vn:8001, test_set: small(70 bytes), n_testcase: 2000, rate:10", source: https://static-znews.zadn.vn/js/comm_client/perf_test.js (48)
+[0712/162406.514:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162407.513:INFO:CONSOLE(17)] "[object Object]", source: https://baomoi-static.zadn.vn/web/js/baomoi-dist-min-1.7.8.js (17)
+[0712/162407.517:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://baomoi.com/tag/COVID_19.epi (0)
+[0712/162408.249:INFO:CONSOLE(17)] "lupr", source: https://baomoi-static.zadn.vn/web/js/baomoi-dist-min-1.7.8.js (17)
+[0712/162408.446:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://baomoi.com/tag/COVID_19.epi (0)
+[0712/162408.590:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js?v=2.0 (1)
+[0712/162408.647:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://api.adtimaserver.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://baomoi.com/tag/COVID_19.epi (0)
+[0712/162408.805:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162410.296:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://lg.nanda.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://baomoi.com/tag/COVID_19.epi (0)
+[0712/162415.074:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162415.125:INFO:CONSOLE(17)] "[object Object]", source: https://baomoi-static.zadn.vn/web/js/baomoi-dist-min-1.7.8.js (17)
+[0712/162415.444:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://baomoi.com/phong-chong-dich-covid-19/top/328.epi (0)
+[0712/162415.505:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js?v=2.0 (1)
+[0712/162415.529:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0712/162415.531:ERROR:batching_media_log.cc(26)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0712/162415.532:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://baomoi.com/phong-chong-dich-covid-19/top/328.epi (0)
+[0712/162415.532:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0712/162415.540:ERROR:batching_media_log.cc(26)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0712/162436.914:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162437.214:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://www.vietnamplus.vn/bao-canada-bn91-bieu-tuong-chong-dai-dich-thanh-cong-cua-viet-nam/651269.vnp (0)
+[0712/162437.229:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://www.vietnamplus.vn/bao-canada-bn91-bieu-tuong-chong-dai-dich-thanh-cong-cua-viet-nam/651269.vnp (0)
+[0712/162437.346:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0712/162437.731:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0712/162438.829:INFO:CONSOLE(119)] "Dugout: Checking CMP...", source: https://embed.dugout.com/v3.1/embed.js (119)
+[0712/162438.829:INFO:CONSOLE(131)] "Dugout CMP Loop  1", source: https://embed.dugout.com/v3.1/embed.js (131)
+[0712/162438.830:INFO:CONSOLE(146)] "Dugout: CMP not found", source: https://embed.dugout.com/v3.1/embed.js (146)
+[0712/162438.871:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js?18455 (1)
+[0712/162439.334:INFO:CONSOLE(374)] "jwDefaults [object Object]", source: https://embed.dugout.com/v3.1/embed.js (374)
+[0712/162440.539:INFO:CONSOLE(1270)] "------ QUERY STRING FROM AD TAG [object Object]", source: https://embed.dugout.com/v3.1/embed.js (1270)
+[0712/162440.728:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://dugout.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://www.vietnamplus.vn/bao-canada-bn91-bieu-tuong-chong-dai-dich-thanh-cong-cua-viet-nam/651269.vnp (0)
+[0712/162444.568:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 55
+[0712/162444.568:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 55
+[0712/162444.598:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 57
+[0712/162444.599:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 57
+[0712/162444.627:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 59
+[0712/162444.627:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 61
+[0712/162444.627:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 59
+[0712/162444.627:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 61
+[0712/162444.627:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 63
+[0712/162444.627:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 65
+[0712/162444.628:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 63
+[0712/162444.628:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 65
+[0712/162444.628:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 67
+[0712/162444.628:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 69
+[0712/162444.628:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 67
+[0712/162444.628:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 69
+[0712/162444.628:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 71
+[0712/162444.628:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 71
+[0712/162444.628:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 73
+[0712/162444.628:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 73
+[0712/162444.628:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 75
+[0712/162444.629:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 75
+[0712/162444.629:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 77
+[0712/162444.629:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 77
+[0712/162444.629:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 79
+[0712/162444.629:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 81
+[0712/162444.629:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 79
+[0712/162444.629:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 81
+[0712/162444.629:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 83
+[0712/162444.629:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 83
+[0712/162444.629:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 85
+[0712/162444.629:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 87
+[0712/162444.630:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 89
+[0712/162444.630:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 85
+[0712/162444.630:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 87
+[0712/162444.630:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 89
+[0712/162758.038:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 3
+[0712/162758.038:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 5
+[0712/162758.332:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 7
+[0712/162758.332:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 9
+[0712/162758.332:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 11
+[0712/162758.332:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 13
+[0712/162758.332:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 15
+[0712/162758.332:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 17
+[0712/162758.332:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 19
+[0712/162758.332:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 21
+[0712/162758.333:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 23
+[0712/162758.333:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 29
+[0712/162758.333:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 31
+[0712/162758.333:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 33
+[0712/162758.333:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 25
+[0712/162758.333:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 27
+[0712/162758.333:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 35
+[0712/162758.333:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 37
+[0712/162758.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 39
+[0712/162758.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 41
+[0712/162758.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 43
+[0712/162758.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 45
+[0712/162758.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 47
+[0712/162758.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 49
+[0712/162758.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 51
+[0712/162758.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 57
+[0712/162758.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 61
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 53
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 55
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 59
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 63
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 65
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 69
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 67
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 71
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 73
+[0712/162758.335:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 75
+[0712/162758.336:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 77
+[0712/162758.385:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 79
+[0712/162758.385:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 81
+[0712/162758.385:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 83
+[0712/162758.385:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 87
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 89
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 91
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 93
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 95
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 97
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 99
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 101
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 103
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 85
+[0712/162758.386:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 105
+[0716/090704.465:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(40,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0716/090711.362:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://za.zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://baomoi.com/phong-chong-dich-covid-19/top/328.epi (0)
+[0716/090711.363:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://baomoi.com/phong-chong-dich-covid-19/top/328.epi (0)
+[0716/090711.578:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(75,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(98,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0716/090711.802:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(60,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0716/090712.261:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js?v=2.0 (1)
+[0716/090715.052:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0716/090715.055:ERROR:batching_media_log.cc(26)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0716/090715.616:INFO:CONSOLE(17)] "[object Object]", source: https://baomoi-static.zadn.vn/web/js/baomoi-dist-min-1.7.8.js (17)
+[0716/090715.957:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0716/090718.334:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 41
+[0716/090718.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 41
+[0716/090718.334:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 43
+[0716/090718.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 43
+[0716/090718.334:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 45
+[0716/090718.334:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 45
+[0716/090718.756:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 47
+[0716/094953.751:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0716/094953.997:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://za.zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0716/094953.998:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0716/094954.256:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0716/094955.729:INFO:CONSOLE(2)] "InitAds", source: https://zjs.zadn.vn/zmp3-desktop/releases/v0.1.20/static/js/main.min.js (2)
+[0716/094955.992:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js (1)
+[0716/094956.262:INFO:CONSOLE(23)] "[Facebook Pixel] - Unable to parse JSON-LD tag. Malformed JSON found: '
+    {
+    "@context": "http://schema.org",
+    "@type": "MusicPlaylist",
+    "name": "Cùng Nhau Đẩy Xa Corona - Various Artists - Zing MP3",
+    "url": "https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html",
+    "image": "https://zmp3-photo-fbcrawler.zadn.vn/cover_video/9/2/2/f/922f940693fc5162da9124bb7b42c3db.jpg",
+    "description": "Cùng Nhau Đẩy Xa Corona - Various Artists - Zing MP3",
+    "thumbnailUrl": "https://zmp3-photo-fbcrawler.zadn.vn/cover_video/9/2/2/f/922f940693fc5162da9124bb7b42c3db.jpg",
+    "numTracks": "17",
+    
+    "genre":"Việt Nam,Nhạc Trẻ,V-Pop",
+    
+    
+    "track": {
+        "@type": "ItemList",
+        "numberOfItems": 17,
+        "itemListElement": [
+            
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "url": "https://zingmp3.vn/bai-hat/Chong-Dich-Nhu-Chong-Giac-Ung-Dai-Ve/ZWBWCCII.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Chống Dịch Như Chống Giặc",
+                    "duration": "PT2M33S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Ưng Đại Vệ",
+                        "url": "https://zingmp3.vn/nghe-si/Ung-Dai-Ve"
+                        }
+                        
+                    ]
+                    
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "url": "https://zingmp3.vn/bai-hat/Ghen-Co-Vy-MIN-ERIK/ZWBWZBE6.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Ghen Cô Vy",
+                    "duration": "PT3M10S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "MIN",
+                        "url": "https://zingmp3.vn/nghe-si/Min"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "ERIK",
+                        "url": "https://zingmp3.vn/nghe-si/ERIK"
+                        }
+                        
+                    ]
+                    
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "url": "https://zingmp3.vn/bai-hat/Viet-Nam-Se-Chien-Thang-Various-Artists/ZWBW97D8.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Việt Nam Sẽ Chiến Thắng",
+                    "duration": "PT2M27S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Various Artists",
+                        "url": "https://zingmp3.vn/nghe-si/Various-Artists"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Việt Nam Sẽ Chiến Thắng (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "url": "https://zingmp3.vn/bai-hat/Sao-Anh-Chua-Ve-Nha-HappyAtHome-AMEE/ZWBWUOB9.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Sao Anh Chưa Về Nhà (#HappyAtHome)",
+                    "duration": "PT2M37S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "AMEE",
+                        "url": "https://zingmp3.vn/nghe-si/AMEE"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Sao Anh Chưa Về Nhà (#HappyAtHome) (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "url": "https://zingmp3.vn/bai-hat/Tien-Covid-Le-Thien-Hieu/ZWBW887Z.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Tiễn Covid",
+                    "duration": "PT3M7S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Lê Thiện Hiếu",
+                        "url": "https://zingmp3.vn/nghe-si/Le-Thien-Hieu"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Tiễn Covid (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "url": "https://zingmp3.vn/bai-hat/Bai-Ca-Cach-Ly-Tung-Maru-Huynh-Hien-Nang-Hoang-Yen-Chibi/ZWBW86BD.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Bài Ca Cách Ly",
+                    "duration": "PT2M48S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Tùng Maru",
+                        "url": "https://zingmp3.vn/nghe-si/Tung-Maru"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Huỳnh Hiền Năng",
+                        "url": "https://zingmp3.vn/nghe-si/Huynh-Hien-Nang"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Hoàng Yến Chibi",
+                        "url": "https://zingmp3.vn/nghe-si/Hoang-Yen-Chibi"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Bài Ca Cách Ly (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 7,
+                "url": "https://zingmp3.vn/bai-hat/Co-Na-Di-Xa-OSAD/ZWBWW8CB.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Cô Na Đi Xa",
+                    "duration": "PT3M0S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "OSAD",
+                        "url": "https://zingmp3.vn/nghe-si/OSAD"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Cô Na Đi Xa (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 8,
+                "url": "https://zingmp3.vn/bai-hat/Vu-Dieu-Cach-Ly-Huong-Ly-Phung-Tien-Minh/ZWBW98W6.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Vũ Điệu Cách Ly",
+                    "duration": "PT3M4S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Hương Ly",
+                        "url": "https://zingmp3.vn/nghe-si/Nguyen-Huong-Ly"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Phùng Tiến Minh",
+                        "url": "https://zingmp3.vn/nghe-si/Tien-Minh"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Vũ Điệu Cách Ly (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 9,
+                "url": "https://zingmp3.vn/bai-hat/Chau-Con-Tien-Rong-Ngai-Gi-Corona-Nguyen-Jenda-Bao-Yen-Rosie-Yen-Tatoo-Pham-Viet-Thang-Y-Tien/ZWBW8EUW.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Cháu Con Tiên Rồng Ngại Gì Corona",
+                    "duration": "PT3M46S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Nguyên Jenda",
+                        "url": "https://zingmp3.vn/nghe-si/Nguyen-Jenda-IWZAE789"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Bảo Yến Rosie",
+                        "url": "https://zingmp3.vn/nghe-si/Dinh-Bao-Yen"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Yến Tatoo",
+                        "url": "https://zingmp3.vn/nghe-si/Yen-Tatoo"
+                        },
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Cháu Con Tiên Rồng Ngại Gì Corona (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 10,
+                "url": "https://zingmp3.vn/bai-hat/Viet-Nam-Oi-Danh-Bay-Covid-Minh-Beta/ZWBWIWU8.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Việt Nam Ơi! Đánh Bay Covid",
+                    "duration": "PT3M57S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Minh Beta",
+                        "url": "https://zingmp3.vn/nghe-si/Minh-Beta"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Việt Nam Ơi! Đánh Bay Covid (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 11,
+                "url": "https://zingmp3.vn/bai-hat/Dung-Yeu-Nham-Co-Vy-Do-Hoang-Duong/ZWBW6UUI.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Đừng Yêu Nhầm Cô Vy",
+                    "duration": "PT3M39S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Đỗ Hoàng Dương",
+                        "url": "https://zingmp3.vn/nghe-si/Do-Hoang-Duong"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Đừng Yêu Nhầm Cô Vy (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 12,
+                "url": "https://zingmp3.vn/bai-hat/Khong-Fake-News-Da-LAB/ZWBWO98Z.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Không Fake News",
+                    "duration": "PT3M10S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Da LAB",
+                        "url": "https://zingmp3.vn/nghe-si/Da-LAB-Band"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Không Fake News (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 13,
+                "url": "https://zingmp3.vn/bai-hat/O-Nha-Anh-Van-Vui-Trung-Tu/ZWBW6B6I.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Ở Nhà Anh Vẫn Vui",
+                    "duration": "PT2M40S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Trung Tự",
+                        "url": "https://zingmp3.vn/nghe-si/Trung-Tu"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Ở Nhà Anh Vẫn Vui (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 14,
+                "url": "https://zingmp3.vn/bai-hat/Corona-Di-Ra-Xa-Pham-Dinh-Thai-Ngan-Long-Min/ZWBWO98B.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Corona Đi Ra Xa!!!",
+                    "duration": "PT2M51S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Phạm Đình Thái Ngân",
+                        "url": "https://zingmp3.vn/nghe-si/Pham-Dinh-Thai-Ngan"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Long Min",
+                        "url": "https://zingmp3.vn/nghe-si/Long-Min"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Corona Đi Ra Xa!!! (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 15,
+                "url": "https://zingmp3.vn/bai-hat/Mau-Ao-Anh-Hung-Vicky-Nhung/ZWBW70WU.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Màu Áo Anh Hùng",
+                    "duration": "PT4M27S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Vicky Nhung",
+                        "url": "https://zingmp3.vn/nghe-si/Vicky-Nhung"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Màu Áo Anh Hùng (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 16,
+                "url": "https://zingmp3.vn/bai-hat/Sai-Lam-Co-Vy-Dinh-Dung/ZWBWOB9B.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Sai Lầm Cô Vy",
+                    "duration": "PT4M42S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Đình Dũng",
+                        "url": "https://zingmp3.vn/nghe-si/Dinh-Dung"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Sai Lầm Cô Vy (Single)"
+                    
+                }
+            }
+            
+        ]
+    }
+  }
+'.", source: https://connect.facebook.net/en_US/fbevents.js (23)
+[0716/094957.285:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://api.adtimaserver.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0716/095005.065:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0716/095005.065:ERROR:batching_media_log.cc(26)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0716/095005.068:INFO:CONSOLE(3)] "[ADTIMA] Error:  ", source: https://adtima-static.zadn.vn/resource/js/zplayer/zplayer.191030.1.js (3)
+[0716/095005.073:INFO:CONSOLE(0)] "Uncaught (in promise) NotSupportedError: Failed to load because no supported source was found.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0716/095107.776:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0716/095108.244:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(113,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(125,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0731/071230.983:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/100211.091:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(40,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0731/100229.400:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0731/100236.213:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0731/100236.342:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(75,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(98,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0731/100236.644:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(60,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0731/100237.496:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0731/100240.919:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0731/100312.752:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0731/100316.395:INFO:CONSOLE(1)] "Video gallery initializing", source: https://freestar-io.videoplayerhub.com/gallery.js (1)
+[0731/100339.633:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0731/100340.225:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0731/100815.129:INFO:CONSOLE(1)] "%cPubfig background: #00C389; color: #fff; border-radius: 3px; padding: 3px pubfig.messaging.js - Init ========== LOADING MESSAGING ==========", source: https://a.pub.network/worldometers-info/pubfig.min.js (1)
+[0731/101726.001:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'style' of undefined", source: https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js (56)
+[0731/101726.723:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'style' of undefined", source: https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js (56)
+[0731/101726.836:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'style' of undefined", source: https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js (56)
+[0731/101727.095:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'style' of undefined", source: https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js (56)
+[0731/101727.203:INFO:CONSOLE(56)] "Uncaught TypeError: Cannot read property 'style' of undefined", source: https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js (56)
+[0731/104316.079:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104316.076:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104321.102:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104321.102:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104326.111:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104326.126:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104331.118:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104331.148:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104336.146:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104336.159:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104341.171:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104341.171:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104346.186:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104346.186:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104351.194:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104351.213:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104356.209:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104356.227:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104401.224:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104401.243:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104406.233:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104406.268:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104411.255:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104411.305:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104416.273:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104416.325:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104421.294:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104421.345:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104426.309:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104426.371:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104431.336:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104431.382:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104436.358:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104436.403:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104441.377:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104441.422:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104446.398:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104446.443:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104451.414:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104451.457:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104456.441:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104456.471:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104501.464:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104501.496:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104506.491:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104506.517:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104511.514:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104511.530:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104516.527:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104516.542:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104521.541:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104521.559:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104526.556:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104526.568:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104531.577:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104531.579:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104536.600:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104536.600:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104541.611:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104541.613:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104546.633:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104546.634:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104551.661:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104551.661:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104556.686:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104556.682:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104601.703:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104601.703:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104606.730:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104606.736:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104611.753:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104611.755:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104616.772:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104616.773:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104621.796:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104621.797:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104626.810:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104626.811:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104631.833:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104631.833:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104636.851:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104636.853:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104641.873:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104641.875:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104646.892:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104646.893:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104651.912:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104651.914:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104656.934:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104656.935:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104701.953:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104701.955:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104706.963:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104706.963:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104711.976:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104711.978:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104716.990:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104716.990:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104722.016:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104722.016:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104727.041:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104727.042:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104732.059:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104732.061:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104737.082:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104737.083:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104742.096:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104742.105:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104747.123:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104747.124:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104752.131:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104752.145:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104757.141:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104757.156:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104802.154:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104802.172:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104807.171:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104807.185:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104812.178:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104812.198:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104817.193:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104817.210:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104822.201:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104822.218:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104827.220:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104827.237:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104832.241:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104832.256:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104837.253:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104837.268:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104842.268:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104842.286:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104847.300:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104847.307:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104852.321:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104852.321:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104857.339:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104857.339:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104902.351:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104902.351:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104907.368:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104907.368:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104912.381:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104912.382:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104917.398:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104917.398:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104922.409:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104922.409:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104927.432:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104927.432:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104932.445:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104932.446:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104937.464:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104937.466:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104942.483:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104942.485:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104947.494:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104947.494:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104952.506:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104952.506:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104957.522:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/104957.522:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105002.545:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105002.548:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105007.563:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105007.563:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105012.582:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105012.590:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105017.594:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105017.610:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105022.611:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105022.625:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105027.625:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105027.644:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105032.647:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105032.664:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105037.658:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105037.676:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105042.667:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105042.698:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105047.681:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105047.709:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105052.692:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105052.725:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105057.715:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105057.746:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105102.723:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105102.771:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105107.748:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105107.794:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105112.769:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105112.816:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105117.782:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105117.828:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105122.805:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105122.854:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105127.820:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105127.865:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105132.837:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105132.883:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105137.847:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105137.895:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105142.861:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105142.907:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105147.879:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105147.924:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105152.894:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105152.944:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105157.904:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105157.953:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105202.926:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105202.974:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105207.948:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105207.995:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105212.955:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105213.016:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105217.980:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105218.039:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105223.003:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105223.049:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105228.020:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105228.066:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105233.037:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105233.082:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105238.057:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105238.100:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105243.070:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105243.115:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105248.087:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105248.132:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105253.113:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105253.141:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105258.129:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105258.156:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105303.145:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105303.173:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105308.164:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105308.195:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105313.182:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105313.212:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105318.202:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105318.232:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105323.216:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105323.245:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105328.233:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105328.263:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105333.244:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105333.273:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105338.261:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105338.291:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105343.273:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105343.305:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105348.286:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105348.316:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105353.310:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105353.337:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105358.334:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105358.349:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105403.347:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105403.363:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105408.361:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105408.374:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105413.384:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105413.400:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105418.398:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105418.414:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105423.409:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105423.423:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105428.422:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105428.437:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105433.441:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105433.455:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105438.458:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105438.473:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105443.471:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105443.482:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105448.496:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105448.497:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105453.512:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105453.512:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105458.529:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105458.532:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105503.555:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105503.555:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105508.565:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105508.566:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105513.583:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105513.583:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105518.602:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105518.602:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105523.620:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105523.620:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105528.642:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105528.644:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105533.665:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105533.667:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105538.689:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105538.690:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105543.703:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105543.704:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105548.715:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105548.715:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105553.736:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105553.737:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105558.749:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105558.750:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105603.763:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105603.764:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105608.776:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105608.776:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105613.790:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105613.790:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105618.800:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105618.801:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105623.816:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105623.816:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105628.836:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105628.836:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105633.862:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105633.862:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105638.883:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105638.885:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105643.904:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105643.905:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105648.921:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105648.921:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105653.942:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105653.942:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105658.965:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105658.966:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105703.985:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105703.987:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105709.007:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105709.010:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105714.029:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105714.031:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105719.047:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105719.047:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105724.060:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105724.061:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105729.078:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105729.078:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105734.086:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105734.101:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105739.107:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105739.130:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105744.123:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105744.141:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105749.148:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105749.162:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105754.167:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105754.182:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105759.188:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105759.203:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105804.200:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105804.216:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105809.216:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105809.231:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105814.236:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105814.255:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105819.258:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105819.272:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105824.273:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105824.291:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105829.284:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105829.314:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105834.304:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105834.339:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105839.327:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105839.357:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105844.341:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105844.374:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105849.356:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105849.390:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105854.370:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105854.401:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105859.391:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105859.423:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105904.414:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105904.443:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105909.423:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105909.459:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105914.433:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105914.480:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105919.444:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105919.499:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105924.460:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105924.521:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105929.467:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105929.530:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105934.482:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105934.542:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105939.499:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105939.568:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105944.545:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105944.577:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105949.552:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105949.603:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105954.565:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105954.624:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105959.575:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/105959.638:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110004.597:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110004.649:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110009.605:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110009.669:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110014.616:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110014.680:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110019.638:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110019.697:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110024.656:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110024.718:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110029.668:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110029.732:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110034.682:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110034.743:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110039.693:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110039.756:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110044.702:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110044.764:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110049.725:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110049.787:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110054.748:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110054.809:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110059.772:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110059.833:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110104.794:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110104.855:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110109.808:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110109.871:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110114.831:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110114.892:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110119.840:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110119.902:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110124.860:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110124.926:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110129.872:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110129.935:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110134.883:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110134.946:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110139.902:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110139.963:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110144.913:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110144.975:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110149.922:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110149.988:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110154.935:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110155.000:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110159.957:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110200.021:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110204.983:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110205.042:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110209.992:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110210.053:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110215.003:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110215.064:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110220.025:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110220.088:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110225.043:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110225.105:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110230.065:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110230.128:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110235.083:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110235.145:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110240.098:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110240.160:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110245.118:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110245.181:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110250.140:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110250.205:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110255.155:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110255.217:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110300.170:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110300.229:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110305.183:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110305.245:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110310.207:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110310.267:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110315.219:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110315.277:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110320.237:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110320.300:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110325.248:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110325.310:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110330.263:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110330.326:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110335.276:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110335.336:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110340.291:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110340.351:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110345.306:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110345.374:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110350.323:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110350.384:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110355.340:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110355.403:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110400.362:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110400.422:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110405.378:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110405.438:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110410.396:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110410.459:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110415.417:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110415.480:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110420.433:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110420.496:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110425.450:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110425.509:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110430.470:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110430.529:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110435.482:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110435.544:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110440.504:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110440.565:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110445.516:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110445.577:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110450.536:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110450.601:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110455.547:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110455.612:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110500.567:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110500.628:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110505.582:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110505.645:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110510.589:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110510.672:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110515.608:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110515.688:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110520.630:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110520.708:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110525.644:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110525.723:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110530.657:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110530.734:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110535.679:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110535.757:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110540.699:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110540.780:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110545.722:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110545.799:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110550.736:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110550.811:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110555.752:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110555.832:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110600.766:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110600.845:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110605.775:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110605.858:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110610.793:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110610.875:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110615.807:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110615.887:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110620.816:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110620.910:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110625.836:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110625.930:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110630.854:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110630.948:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110635.875:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110635.968:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110640.900:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110640.991:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110645.921:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110646.015:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110650.932:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110651.027:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110655.954:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110656.047:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110700.970:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110701.060:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110705.983:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110706.075:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110711.006:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110711.100:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110716.024:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110716.120:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110721.036:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110721.130:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110726.055:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110726.150:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110731.073:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110731.165:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110736.088:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110736.180:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110741.107:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110741.206:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110746.127:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110746.224:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110751.149:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110751.244:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110756.166:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110756.257:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110801.175:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110801.268:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110806.194:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110806.287:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110811.214:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110811.308:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110816.223:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110816.320:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110821.240:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110821.336:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110826.264:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110826.355:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110831.274:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110831.368:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110836.291:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110836.387:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110841.302:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110841.397:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110846.310:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110846.418:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110851.322:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110851.434:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110856.332:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110856.457:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110901.340:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110901.467:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110906.353:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110906.478:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110911.367:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110911.490:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110916.387:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110916.509:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110921.408:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110921.517:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110926.425:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110926.534:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110931.432:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110931.542:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110936.445:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110936.551:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110941.462:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110941.573:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110946.480:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110946.587:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110951.490:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110951.597:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110956.503:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/110956.612:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111001.514:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111001.625:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111006.523:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111006.651:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111011.543:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111011.667:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111016.554:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111016.679:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111021.564:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111021.692:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111026.576:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111026.700:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111031.595:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111031.719:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111036.604:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111036.727:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111041.622:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111041.748:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111046.636:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111046.762:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111051.649:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111051.770:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111056.661:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111056.784:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111101.674:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111101.802:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111106.689:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111106.816:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111111.710:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111111.837:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111116.722:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111116.860:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111121.739:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111121.880:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111126.754:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111126.896:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111131.776:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111131.916:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111136.797:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111136.938:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111141.812:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111141.954:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111146.830:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111146.970:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111151.851:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111151.985:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111156.866:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111157.006:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111201.881:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111202.023:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111206.890:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111207.033:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111211.901:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111212.045:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111216.908:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/111217.066:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0731/112049.370:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(40,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0731/112104.259:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0731/112104.381:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(75,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(98,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0731/112104.840:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(60,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0731/112106.380:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0731/112108.726:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0731/112118.220:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0731/112118.493:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0731/112118.905:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0731/112118.944:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0731/112122.378:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0731/112125.308:INFO:CONSOLE(1)] "Video gallery initializing", source: https://freestar-io.videoplayerhub.com/gallery.js (1)
+[0731/112132.860:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 3
+[0731/112136.791:INFO:CONSOLE(1)] "%cPubfig background: #00C389; color: #fff; border-radius: 3px; padding: 3px pubfig.messaging.js - Init ========== LOADING MESSAGING ==========", source: https://a.pub.network/worldometers-info/pubfig.min.js (1)
