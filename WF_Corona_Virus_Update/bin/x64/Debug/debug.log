@@ -15694,3 +15694,7 @@ C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use
 [0731/112125.308:INFO:CONSOLE(1)] "Video gallery initializing", source: https://freestar-io.videoplayerhub.com/gallery.js (1)
 [0731/112132.860:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 3
 [0731/112136.791:INFO:CONSOLE(1)] "%cPubfig background: #00C389; color: #fff; border-radius: 3px; padding: 3px pubfig.messaging.js - Init ========== LOADING MESSAGING ==========", source: https://a.pub.network/worldometers-info/pubfig.min.js (1)
+[0731/114525.756:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(40,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
