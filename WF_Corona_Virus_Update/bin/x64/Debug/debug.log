@@ -15730,3 +15730,31 @@ C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use
 [0731/215934.351:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
 [0731/215942.173:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
 [0731/215944.339:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0801/204048.149:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(40,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0801/204146.648:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0801/204155.156:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0801/204155.316:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(75,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(98,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0801/204155.624:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(60,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0801/204156.510:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0801/204209.237:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 1
+[0801/204212.533:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0801/204222.920:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0801/204223.992:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0801/204224.616:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0801/204227.036:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0801/204236.175:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0801/204236.222:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0801/204236.327:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0801/204236.895:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0801/204238.908:INFO:CONSOLE(1)] "Video gallery initializing", source: https://freestar-io.videoplayerhub.com/gallery.js (1)
+[0801/204239.936:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -201
+[0801/204316.448:INFO:CONSOLE(1)] "%cPubfig background: #00C389; color: #fff; border-radius: 3px; padding: 3px pubfig.messaging.js - Init ========== LOADING MESSAGING ==========", source: https://a.pub.network/worldometers-info/pubfig.min.js (1)
