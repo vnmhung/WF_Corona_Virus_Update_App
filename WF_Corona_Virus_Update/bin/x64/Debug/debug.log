@@ -15826,3 +15826,65 @@ C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use
 [0820/090527.143:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://api.adtimaserver.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
 [0820/090532.897:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
 [0820/090542.279:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://lg.nanda.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
+[0825/151726.450:ERROR:cache_util_win.cc(21)] Unable to move the cache: The system cannot find the file specified. (0x2)
+[0825/151726.451:ERROR:cache_util.cc(141)] Unable to move cache folder GPUCache to old_GPUCache_000
+[0825/151726.451:ERROR:disk_cache.cc(178)] Unable to create cache
+[0825/151726.451:ERROR:shader_disk_cache.cc(605)] Shader Cache Creation failed: -2
+[0825/151726.672:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(40,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(52,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0825/151740.334:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0825/151740.335:INFO:CONSOLE(2)] "", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0825/151741.036:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0825/151741.577:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(60,7-55): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(72,8-40): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0825/151746.529:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(75,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(98,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0825/151755.833:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 1
+[0825/151755.834:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 3
+[0825/151756.693:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 1
+[0825/151758.040:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 5
+[0825/151758.040:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 7
+[0825/151758.040:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 9
+[0825/151758.070:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0825/151758.379:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0825/151758.816:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 1
+[0825/151758.873:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 1
+[0825/151758.997:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 1
+[0825/151759.669:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://za.zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
+[0825/151759.670:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/Covid-19-tim-kiem.html (0)
+[0825/151759.686:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js (1)
+[0825/151819.374:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 3
+[0825/151833.567:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://za.zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/tong-thong-trump-pha-truyen-thong-dai-hoi-dang-ngay-dem-dau-tien-post1123931.html#zingweb_search_searchresult4 (0)
+[0825/151833.567:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/tong-thong-trump-pha-truyen-thong-dai-hoi-dang-ngay-dem-dau-tien-post1123931.html#zingweb_search_searchresult4 (0)
+[0825/151833.957:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 1
+[0825/151834.076:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 5
+[0825/151834.111:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0825/151834.614:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0825/151834.785:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js (1)
+[0825/151836.176:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://api.adtimaserver.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/tong-thong-trump-pha-truyen-thong-dai-hoi-dang-ngay-dem-dau-tien-post1123931.html#zingweb_search_searchresult4 (0)
+[0825/151847.458:INFO:CONSOLE(52)] "XFBML Parsing Start 1", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.476:INFO:CONSOLE(52)] "XFBML Parsing Finish 1, 0 tags found", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.478:INFO:CONSOLE(52)] "sdkperf: it took 13068 ms and 59594 bytes to load https://connect.facebook.net/vi_VN/all.js", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.479:INFO:CONSOLE(52)] "sdkperf: init logged after 14046 ms", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.479:INFO:CONSOLE(52)] "sdkperf: asyncstart logged after 14047 ms", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.480:INFO:CONSOLE(52)] "FB.init has already been called - this could indicate a problem", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.482:INFO:CONSOLE(52)] "sdkperf: init logged after 14050 ms", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.482:INFO:CONSOLE(52)] "XFBML Parsing Start 2", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.508:INFO:CONSOLE(52)] "XFBML Parsing Finish 2, 0 tags found", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.508:INFO:CONSOLE(52)] "FB.init has already been called - this could indicate a problem", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151847.509:INFO:CONSOLE(52)] "sdkperf: init logged after 14077 ms", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151945.127:INFO:CONSOLE(3)] "Uncaught InvalidCharacterError: Failed to execute 'setAttribute' on 'Element': '0' is not a valid attribute name.", source: https://adtima-static.zadn.vn/resource/js/zad/adr.200821.1624.js (3)
+[0825/151949.475:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://lg.nanda.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/tong-thong-trump-pha-truyen-thong-dai-hoi-dang-ngay-dem-dau-tien-post1123931.html#zingweb_search_searchresult4 (0)
+[0825/151949.658:INFO:CONSOLE(52)] "domReady", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151949.658:INFO:CONSOLE(52)] "The "fb-root" div has not been created, auto-creating", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151949.660:INFO:CONSOLE(52)] "XFBML Parsing Start 3", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151949.683:INFO:CONSOLE(52)] "XFBML Parsing Finish 3, 0 tags found", source: https://connect.facebook.net/vi_VN/all.js?hash=f1d4e603cabf450dbc647237107fe80e&ua=modern_es6 (52)
+[0825/151950.614:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/tong-thong-trump-pha-truyen-thong-dai-hoi-dang-ngay-dem-dau-tien-post1123931.html (0)
+[0825/152125.252:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
+[0825/152125.253:ERROR:batching_media_log.cc(26)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
