@@ -15888,3 +15888,617 @@ C:\fakepath(98,10-46): warning X3571: pow(f, e) will not work for negative f, us
 [0825/151950.614:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/tong-thong-trump-pha-truyen-thong-dai-hoi-dang-ngay-dem-dau-tien-post1123931.html (0)
 [0825/152125.252:ERROR:batching_media_log.cc(26)] MediaEvent: MEDIA_ERROR_LOG_ENTRY {"error":"FFmpegDemuxer: no supported streams"}
 [0825/152125.253:ERROR:batching_media_log.cc(26)] MediaEvent: PIPELINE_ERROR DEMUXER_ERROR_NO_SUPPORTED_STREAMS
+[0903/133118.238:WARNING:dns_config_service_win.cc(672)] Failed to read DnsConfig.
+[0903/133243.617:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0903/133243.617:INFO:CONSOLE(2)] "", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0903/133245.831:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0903/133245.922:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://za.zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/tong-thong-trump-pha-truyen-thong-dai-hoi-dang-ngay-dem-dau-tien-post1123931.html (0)
+[0903/133245.922:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingnews.vn/tong-thong-trump-pha-truyen-thong-dai-hoi-dang-ngay-dem-dau-tien-post1123931.html (0)
+[0903/133245.959:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js (1)
+[0903/133247.772:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0903/133305.011:INFO:CONSOLE(52)] "XFBML Parsing Start 1", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.041:INFO:CONSOLE(52)] "XFBML Parsing Finish 1, 0 tags found", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.043:INFO:CONSOLE(52)] "sdkperf: it took 31689 ms and 62753 bytes to load https://connect.facebook.net/vi_VN/all.js", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.043:INFO:CONSOLE(52)] "sdkperf: init logged after 31970 ms", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.043:INFO:CONSOLE(52)] "sdkperf: asyncstart logged after 31971 ms", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.043:INFO:CONSOLE(52)] "FB.init has already been called - this could indicate a problem", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.043:INFO:CONSOLE(52)] "sdkperf: init logged after 31973 ms", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.043:INFO:CONSOLE(52)] "XFBML Parsing Start 2", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.072:INFO:CONSOLE(52)] "XFBML Parsing Finish 2, 0 tags found", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.073:INFO:CONSOLE(52)] "FB.init has already been called - this could indicate a problem", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133305.074:INFO:CONSOLE(52)] "sdkperf: init logged after 32001 ms", source: https://connect.facebook.net/vi_VN/all.js?hash=60e88ee1265f1254d2c18dc1fe959f97&ua=modern_es6 (52)
+[0903/133358.341:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 9
+[0903/133358.341:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 9
+[0903/133358.341:WARNING:spdy_session.cc(3259)] Received WINDOW_UPDATE for invalid stream 11
+[0903/133358.341:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 11
+[0903/133358.343:WARNING:spdy_session.cc(3316)] Received HEADERS for invalid stream 13
+[0903/133420.147:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://za.zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0903/133420.147:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://zalo.me/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0903/133421.050:ERROR:ssl_client_socket_impl.cc(935)] handshake failed; returned -1, SSL error code 1, net_error -200
+[0903/133421.234:INFO:CONSOLE(2)] "Zalo Social Plugin is loaded successfully", source: https://sp.zalo.me/plugins/sdk.js (2)
+[0903/133426.647:INFO:CONSOLE(1)] "Uncaught (in promise) ReferenceError: Notification is not defined", source: https://stc.za.zaloapp.com/v3/za.js (1)
+[0903/133428.410:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://www.facebook.com/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
+[0903/133428.437:INFO:CONSOLE(23)] "[Facebook Pixel] - Unable to parse JSON-LD tag. Malformed JSON found: '
+    {
+    "@context": "http://schema.org",
+    "@type": "MusicPlaylist",
+    "name": "Cùng Nhau Đẩy Xa Corona - Various Artists - Zing MP3",
+    "url": "https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html",
+    "image": "https://zmp3-photo-fbcrawler.zadn.vn/cover_video/9/2/2/f/922f940693fc5162da9124bb7b42c3db.jpg",
+    "description": "Cùng Nhau Đẩy Xa Corona - Various Artists - Zing MP3",
+    "thumbnailUrl": "https://zmp3-photo-fbcrawler.zadn.vn/cover_video/9/2/2/f/922f940693fc5162da9124bb7b42c3db.jpg",
+    "numTracks": "19",
+    
+    "genre":"Việt Nam,Nhạc Trẻ,V-Pop",
+    
+    
+    "track": {
+        "@type": "ItemList",
+        "numberOfItems": 19,
+        "itemListElement": [
+            
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "url": "https://zingmp3.vn/bai-hat/Sang-Mat-Chua-Co-Vy-Truc-Nhan-Chi-Pu-Chau-Bui/ZWC7ZFD8.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Sáng Mắt Chưa Cô Vy",
+                    "duration": "PT2M36S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Trúc Nhân",
+                        "url": "https://zingmp3.vn/nghe-si/Truc-Nhan"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Chi Pu",
+                        "url": "https://zingmp3.vn/nghe-si/Chi-Pu"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Châu Bùi",
+                        "url": "https://zingmp3.vn/nghe-si/Chau-Bui"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Sáng Mắt Chưa Cô Vy (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "url": "https://zingmp3.vn/bai-hat/Vung-Tin-Viet-Nam-Pham-Minh-Thanh-Ha-Le/ZWCOB006.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Vững Tin Việt Nam",
+                    "duration": "PT3M33S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Phạm Minh Thành",
+                        "url": "https://zingmp3.vn/nghe-si/Pham-Minh-Thanh"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Hà Lê",
+                        "url": "https://zingmp3.vn/nghe-si/Ha-Le-moi"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Vững Tin Việt Nam"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "url": "https://zingmp3.vn/bai-hat/Covid-Nhanh-Di-Di-K-ICM-APJ-Huyen-Tam-Mon-Quang-Dong-RYO/ZWCWEEAU.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Covid Nhanh Đi Đi",
+                    "duration": "PT3M42S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "K-ICM",
+                        "url": "https://zingmp3.vn/nghe-si/K-ICM"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "APJ",
+                        "url": "https://zingmp3.vn/nghe-si/APJ"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Huyền Tâm Môn",
+                        "url": "https://zingmp3.vn/nghe-si/Huyen-Tam-Mon"
+                        },
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Covid Nhanh Đi Đi (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "url": "https://zingmp3.vn/bai-hat/Ghen-Co-Vy-MIN-ERIK/ZWBWZBE6.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Ghen Cô Vy",
+                    "duration": "PT3M10S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "MIN",
+                        "url": "https://zingmp3.vn/nghe-si/Min"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "ERIK",
+                        "url": "https://zingmp3.vn/nghe-si/ERIK"
+                        }
+                        
+                    ]
+                    
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "url": "https://zingmp3.vn/bai-hat/Co-Ro-Na-Tranh-Ra-Nha-K-ICM-APJ-Gia-Khiem-Tien-Nho-Minh-Chien-Bao-An/ZWDW7CBW.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Cô Rô Na Tránh Ra Nha",
+                    "duration": "PT3M31S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "K-ICM",
+                        "url": "https://zingmp3.vn/nghe-si/K-ICM"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "APJ",
+                        "url": "https://zingmp3.vn/nghe-si/APJ"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Gia Khiêm",
+                        "url": "https://zingmp3.vn/nghe-si/Gia-Khiem"
+                        },
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Cô Rô Na Tránh Ra Nha (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 6,
+                "url": "https://zingmp3.vn/bai-hat/Viet-Nam-Se-Chien-Thang-Various-Artists/ZWBW97D8.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Việt Nam Sẽ Chiến Thắng",
+                    "duration": "PT2M27S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Various Artists",
+                        "url": "https://zingmp3.vn/nghe-si/Various-Artists"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Việt Nam Sẽ Chiến Thắng (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 7,
+                "url": "https://zingmp3.vn/bai-hat/Viet-Nam-Oi-Danh-Bay-Covid-Minh-Beta/ZWBWIWU8.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Việt Nam Ơi! Đánh Bay Covid",
+                    "duration": "PT3M57S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Minh Beta",
+                        "url": "https://zingmp3.vn/nghe-si/Minh-Beta"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Việt Nam Ơi! Đánh Bay Covid (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 8,
+                "url": "https://zingmp3.vn/bai-hat/Sao-Anh-Chua-Ve-Nha-HappyAtHome-AMEE/ZWBWUOB9.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Sao Anh Chưa Về Nhà (#HappyAtHome)",
+                    "duration": "PT2M37S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "AMEE",
+                        "url": "https://zingmp3.vn/nghe-si/AMEE"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Sao Anh Chưa Về Nhà (#HappyAtHome) (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 9,
+                "url": "https://zingmp3.vn/bai-hat/Tien-Covid-Le-Thien-Hieu/ZWBW887Z.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Tiễn Covid",
+                    "duration": "PT3M7S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Lê Thiện Hiếu",
+                        "url": "https://zingmp3.vn/nghe-si/Le-Thien-Hieu"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Tiễn Covid (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 10,
+                "url": "https://zingmp3.vn/bai-hat/Bai-Ca-Cach-Ly-Tung-Maru-Huynh-Hien-Nang-Hoang-Yen-Chibi/ZWBW86BD.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Bài Ca Cách Ly",
+                    "duration": "PT2M48S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Tùng Maru",
+                        "url": "https://zingmp3.vn/nghe-si/Tung-Maru"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Huỳnh Hiền Năng",
+                        "url": "https://zingmp3.vn/nghe-si/Huynh-Hien-Nang"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Hoàng Yến Chibi",
+                        "url": "https://zingmp3.vn/nghe-si/Hoang-Yen-Chibi"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Bài Ca Cách Ly (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 11,
+                "url": "https://zingmp3.vn/bai-hat/Dung-Yeu-Nham-Co-Vy-Do-Hoang-Duong/ZWBW6UUI.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Đừng Yêu Nhầm Cô Vy",
+                    "duration": "PT3M39S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Đỗ Hoàng Dương",
+                        "url": "https://zingmp3.vn/nghe-si/Do-Hoang-Duong"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Đừng Yêu Nhầm Cô Vy (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 12,
+                "url": "https://zingmp3.vn/bai-hat/Co-Na-Di-Xa-OSAD/ZWBWW8CB.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Cô Na Đi Xa",
+                    "duration": "PT3M0S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "OSAD",
+                        "url": "https://zingmp3.vn/nghe-si/OSAD"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Cô Na Đi Xa (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 13,
+                "url": "https://zingmp3.vn/bai-hat/Corona-Di-Ra-Xa-Pham-Dinh-Thai-Ngan-Long-Min/ZWBWO98B.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Corona Đi Ra Xa!!!",
+                    "duration": "PT2M51S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Phạm Đình Thái Ngân",
+                        "url": "https://zingmp3.vn/nghe-si/Pham-Dinh-Thai-Ngan"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Long Min",
+                        "url": "https://zingmp3.vn/nghe-si/Long-Min"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Corona Đi Ra Xa!!! (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 14,
+                "url": "https://zingmp3.vn/bai-hat/Chong-Dich-Nhu-Chong-Giac-Ung-Dai-Ve/ZWBWCCII.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Chống Dịch Như Chống Giặc",
+                    "duration": "PT2M33S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Ưng Đại Vệ",
+                        "url": "https://zingmp3.vn/nghe-si/Ung-Dai-Ve"
+                        }
+                        
+                    ]
+                    
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 15,
+                "url": "https://zingmp3.vn/bai-hat/Sai-Lam-Co-Vy-Dinh-Dung/ZWBWOB9B.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Sai Lầm Cô Vy",
+                    "duration": "PT4M42S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Đình Dũng",
+                        "url": "https://zingmp3.vn/nghe-si/Dinh-Dung"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Sai Lầm Cô Vy (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 16,
+                "url": "https://zingmp3.vn/bai-hat/Vu-Dieu-Cach-Ly-Huong-Ly-Phung-Tien-Minh/ZWBW98W6.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Vũ Điệu Cách Ly",
+                    "duration": "PT3M4S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Hương Ly",
+                        "url": "https://zingmp3.vn/nghe-si/Nguyen-Huong-Ly"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Phùng Tiến Minh",
+                        "url": "https://zingmp3.vn/nghe-si/Tien-Minh"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Vũ Điệu Cách Ly (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 17,
+                "url": "https://zingmp3.vn/bai-hat/Chau-Con-Tien-Rong-Ngai-Gi-Corona-Nguyen-Jenda-Bao-Yen-Rosie-Yen-Tatoo-Pham-Viet-Thang-Y-Tien/ZWBW8EUW.html#video-clip",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Cháu Con Tiên Rồng Ngại Gì Corona",
+                    "duration": "PT3M46S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Nguyên Jenda",
+                        "url": "https://zingmp3.vn/nghe-si/Nguyen-Jenda-IWZAE789"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Bảo Yến Rosie",
+                        "url": "https://zingmp3.vn/nghe-si/Dinh-Bao-Yen"
+                        },
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Yến Tatoo",
+                        "url": "https://zingmp3.vn/nghe-si/Yen-Tatoo"
+                        },
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Cháu Con Tiên Rồng Ngại Gì Corona (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 18,
+                "url": "https://zingmp3.vn/bai-hat/Khong-Fake-News-Da-LAB/ZWBWO98Z.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Không Fake News",
+                    "duration": "PT3M10S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Da LAB",
+                        "url": "https://zingmp3.vn/nghe-si/Da-LAB-Band"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Không Fake News (Single)"
+                    
+                }
+            },
+            
+            {
+                "@type": "ListItem",
+                "position": 19,
+                "url": "https://zingmp3.vn/bai-hat/Mau-Ao-Anh-Hung-Vicky-Nhung/ZWBW70WU.html",
+                "item": {
+                    "@type": "MusicRecording",
+                    "name": "Màu Áo Anh Hùng",
+                    "duration": "PT4M27S",
+                          
+                    "byArtist": [                    
+                        
+                        {
+                        "@type": "MusicGroup",
+                        "name": "Vicky Nhung",
+                        "url": "https://zingmp3.vn/nghe-si/Vicky-Nhung"
+                        }
+                        
+                    ]
+                    
+                    
+                    ,"inAlbum":"Màu Áo Anh Hùng (Single)"
+                    
+                }
+            }
+            
+        ]
+    }
+  }
+'.", source: https://connect.facebook.net/en_US/fbevents.js (23)
+[0903/133430.713:INFO:CONSOLE(2)] "InitAds", source: https://zjs.zadn.vn/zmp3-desktop/releases/v0.1.28/static/js/main.min.js (2)
+[0903/133430.891:WARNING:angle_platform_impl.cc(52)] compileToBinary(256): 
+C:\fakepath(75,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(98,10-46): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0903/133432.890:INFO:CONSOLE(0)] "A cookie associated with a cross-site resource at http://api.adtimaserver.vn/ was set without the `SameSite` attribute. A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.", source: https://zingmp3.vn/album/Cung-Nhau-Day-Xa-Corona-Various-Artists/60I080O8.html (0)
